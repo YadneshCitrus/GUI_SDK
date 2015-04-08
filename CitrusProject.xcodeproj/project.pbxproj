@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4933EA1AC914D100E4DC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4933E91AC914D100E4DC16 /* main.m */; };
+		CC4933ED1AC914D100E4DC16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4933EC1AC914D100E4DC16 /* AppDelegate.m */; };
+		CC4933F01AC914D100E4DC16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4933EF1AC914D100E4DC16 /* ViewController.m */; };
+		CC4933F31AC914D100E4DC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4933F11AC914D100E4DC16 /* Main.storyboard */; };
+		CC4933F51AC914D100E4DC16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4933F41AC914D100E4DC16 /* Images.xcassets */; };
+		CC4933F81AC914D100E4DC16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4933F61AC914D100E4DC16 /* LaunchScreen.xib */; };
+		CC4934041AC914D100E4DC16 /* CitrusProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4934031AC914D100E4DC16 /* CitrusProjectTests.m */; };
+		CC49340F1AC9160600E4DC16 /* AddCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC49340E1AC9160600E4DC16 /* AddCardController.m */; };
+		CC49341C1AC9173200E4DC16 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4934161AC9173200E4DC16 /* ALView+PureLayout.m */; };
+		CC49341D1AC9173200E4DC16 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4934181AC9173200E4DC16 /* NSArray+PureLayout.m */; };
+		CC49341E1AC9173200E4DC16 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CC49341A1AC9173200E4DC16 /* NSLayoutConstraint+PureLayout.m */; };
+		CC4934221AC917E500E4DC16 /* CCListViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4934211AC917E500E4DC16 /* CCListViewControllers.m */; };
+		CC4934251AC92D5B00E4DC16 /* UIButton+BarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4934241AC92D5B00E4DC16 /* UIButton+BarButton.m */; };
+		CC49342A1AC92FCD00E4DC16 /* SepratorLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4934291AC92FCD00E4DC16 /* SepratorLine.m */; };
+		CC49342E1AC935C900E4DC16 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC49342D1AC935C900E4DC16 /* CardView.m */; };
+		CC4934311AC9596800E4DC16 /* UIFont+UserDefineFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4934301AC9596800E4DC16 /* UIFont+UserDefineFont.m */; };
+		CC4934351AC96C6B00E4DC16 /* ResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4934341AC96C6B00E4DC16 /* ResultController.m */; };
+		CC49343C1AC9818000E4DC16 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC49343B1AC9818000E4DC16 /* HomeViewController.m */; };
+		CC49343F1AC982AB00E4DC16 /* CitrusCashView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC49343E1AC982AB00E4DC16 /* CitrusCashView.m */; };
+		CC4934421AC9882B00E4DC16 /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4934411AC9882B00E4DC16 /* CustomTableView.m */; };
+		CC4934451AC988FA00E4DC16 /* AppUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4934441AC988FA00E4DC16 /* AppUtility.m */; };
+		CC9877331AD23D26001AB48C /* EnterCVVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9877321AD23D26001AB48C /* EnterCVVViewController.m */; };
+		CC9877371AD242DA001AB48C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9877361AD242DA001AB48C /* BaseViewController.m */; };
+		CC98773A1AD2651C001AB48C /* ocraextended.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC9877391AD2651C001AB48C /* ocraextended.ttf */; };
+		CCE41D6E1AD14BE400485F5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CCE41D6D1AD14BE400485F5B /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC4933FE1AC914D100E4DC16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4933DC1AC914D000E4DC16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4933E31AC914D000E4DC16;
+			remoteInfo = CitrusProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC4933E41AC914D100E4DC16 /* CitrusProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitrusProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4933E81AC914D100E4DC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4933E91AC914D100E4DC16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC4933EB1AC914D100E4DC16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC4933EC1AC914D100E4DC16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC4933EE1AC914D100E4DC16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC4933EF1AC914D100E4DC16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC4933F21AC914D100E4DC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC4933F41AC914D100E4DC16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC4933F71AC914D100E4DC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC4933FD1AC914D100E4DC16 /* CitrusProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitrusProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4934021AC914D100E4DC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4934031AC914D100E4DC16 /* CitrusProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitrusProjectTests.m; sourceTree = "<group>"; };
+		CC49340D1AC9160600E4DC16 /* AddCardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddCardController.h; path = ../AddCardController.h; sourceTree = "<group>"; };
+		CC49340E1AC9160600E4DC16 /* AddCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddCardController.m; path = ../AddCardController.m; sourceTree = "<group>"; };
+		CC4934131AC9173200E4DC16 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		CC4934141AC9173200E4DC16 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		CC4934151AC9173200E4DC16 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		CC4934161AC9173200E4DC16 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		CC4934171AC9173200E4DC16 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		CC4934181AC9173200E4DC16 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		CC4934191AC9173200E4DC16 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		CC49341A1AC9173200E4DC16 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		CC49341B1AC9173200E4DC16 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		CC4934201AC917E500E4DC16 /* CCListViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCListViewControllers.h; sourceTree = "<group>"; };
+		CC4934211AC917E500E4DC16 /* CCListViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCListViewControllers.m; sourceTree = "<group>"; };
+		CC4934231AC92D5B00E4DC16 /* UIButton+BarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BarButton.h"; sourceTree = "<group>"; };
+		CC4934241AC92D5B00E4DC16 /* UIButton+BarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BarButton.m"; sourceTree = "<group>"; };
+		CC4934281AC92FCD00E4DC16 /* SepratorLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SepratorLine.h; sourceTree = "<group>"; };
+		CC4934291AC92FCD00E4DC16 /* SepratorLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SepratorLine.m; sourceTree = "<group>"; };
+		CC49342B1AC9306000E4DC16 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CC49342C1AC935C900E4DC16 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		CC49342D1AC935C900E4DC16 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		CC49342F1AC9596800E4DC16 /* UIFont+UserDefineFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+UserDefineFont.h"; sourceTree = "<group>"; };
+		CC4934301AC9596800E4DC16 /* UIFont+UserDefineFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+UserDefineFont.m"; sourceTree = "<group>"; };
+		CC4934331AC96C6B00E4DC16 /* ResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultController.h; sourceTree = "<group>"; };
+		CC4934341AC96C6B00E4DC16 /* ResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultController.m; sourceTree = "<group>"; };
+		CC49343A1AC9818000E4DC16 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CC49343B1AC9818000E4DC16 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CC49343D1AC982AB00E4DC16 /* CitrusCashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitrusCashView.h; sourceTree = "<group>"; };
+		CC49343E1AC982AB00E4DC16 /* CitrusCashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitrusCashView.m; sourceTree = "<group>"; };
+		CC4934401AC9882B00E4DC16 /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		CC4934411AC9882B00E4DC16 /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		CC4934431AC988FA00E4DC16 /* AppUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtility.h; sourceTree = "<group>"; };
+		CC4934441AC988FA00E4DC16 /* AppUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtility.m; sourceTree = "<group>"; };
+		CC9877311AD23D26001AB48C /* EnterCVVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterCVVViewController.h; sourceTree = "<group>"; };
+		CC9877321AD23D26001AB48C /* EnterCVVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterCVVViewController.m; sourceTree = "<group>"; };
+		CC9877351AD242DA001AB48C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CC9877361AD242DA001AB48C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CC9877391AD2651C001AB48C /* ocraextended.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocraextended.ttf; sourceTree = "<group>"; };
+		CCE41D6D1AD14BE400485F5B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4933E11AC914D000E4DC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4933FA1AC914D100E4DC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4933DB1AC914D000E4DC16 = {
+			isa = PBXGroup;
+			children = (
+				CC9877391AD2651C001AB48C /* ocraextended.ttf */,
+				CCE41D6D1AD14BE400485F5B /* .gitignore */,
+				CCE41D6F1AD14C3400485F5B /* Utility */,
+				CC4934271AC92F9D00E4DC16 /* Cutomize Classes */,
+				CC49341F1AC9173700E4DC16 /* Pure AutoLayout */,
+				CC4933E61AC914D100E4DC16 /* CitrusProject */,
+				CC4934001AC914D100E4DC16 /* CitrusProjectTests */,
+				CC4933E51AC914D100E4DC16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4933E51AC914D100E4DC16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4933E41AC914D100E4DC16 /* CitrusProject.app */,
+				CC4933FD1AC914D100E4DC16 /* CitrusProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4933E61AC914D100E4DC16 /* CitrusProject */ = {
+			isa = PBXGroup;
+			children = (
+				CC9877381AD24421001AB48C /* Base View Controller */,
+				CC9877341AD23D2D001AB48C /* CVV */,
+				CC4934391AC97CD400E4DC16 /* Home */,
+				CC4934321AC96C1F00E4DC16 /* ResultController */,
+				CC4934121AC9171000E4DC16 /* AddCard */,
+				CC4934111AC916FF00E4DC16 /* rootViewController */,
+				CC4934101AC916EF00E4DC16 /* AppDelegate */,
+				CC4933F11AC914D100E4DC16 /* Main.storyboard */,
+				CC4933F41AC914D100E4DC16 /* Images.xcassets */,
+				CC4933F61AC914D100E4DC16 /* LaunchScreen.xib */,
+				CC4933E71AC914D100E4DC16 /* Supporting Files */,
+			);
+			path = CitrusProject;
+			sourceTree = "<group>";
+		};
+		CC4933E71AC914D100E4DC16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4933E81AC914D100E4DC16 /* Info.plist */,
+				CC4933E91AC914D100E4DC16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC4934001AC914D100E4DC16 /* CitrusProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4934031AC914D100E4DC16 /* CitrusProjectTests.m */,
+				CC4934011AC914D100E4DC16 /* Supporting Files */,
+			);
+			path = CitrusProjectTests;
+			sourceTree = "<group>";
+		};
+		CC4934011AC914D100E4DC16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4934021AC914D100E4DC16 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC4934101AC916EF00E4DC16 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CC4933EB1AC914D100E4DC16 /* AppDelegate.h */,
+				CC4933EC1AC914D100E4DC16 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CC4934111AC916FF00E4DC16 /* rootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC4933EE1AC914D100E4DC16 /* ViewController.h */,
+				CC4933EF1AC914D100E4DC16 /* ViewController.m */,
+				CC4934201AC917E500E4DC16 /* CCListViewControllers.h */,
+				CC4934211AC917E500E4DC16 /* CCListViewControllers.m */,
+			);
+			name = rootViewController;
+			sourceTree = "<group>";
+		};
+		CC4934121AC9171000E4DC16 /* AddCard */ = {
+			isa = PBXGroup;
+			children = (
+				CC49340D1AC9160600E4DC16 /* AddCardController.h */,
+				CC49340E1AC9160600E4DC16 /* AddCardController.m */,
+			);
+			name = AddCard;
+			sourceTree = "<group>";
+		};
+		CC49341F1AC9173700E4DC16 /* Pure AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CC4934131AC9173200E4DC16 /* PureLayout.h */,
+				CC4934141AC9173200E4DC16 /* PureLayoutDefines.h */,
+				CC4934151AC9173200E4DC16 /* ALView+PureLayout.h */,
+				CC4934161AC9173200E4DC16 /* ALView+PureLayout.m */,
+				CC4934171AC9173200E4DC16 /* NSArray+PureLayout.h */,
+				CC4934181AC9173200E4DC16 /* NSArray+PureLayout.m */,
+				CC4934191AC9173200E4DC16 /* NSLayoutConstraint+PureLayout.h */,
+				CC49341A1AC9173200E4DC16 /* NSLayoutConstraint+PureLayout.m */,
+				CC49341B1AC9173200E4DC16 /* PureLayout+Internal.h */,
+				CC49342B1AC9306000E4DC16 /* Constants.h */,
+			);
+			name = "Pure AutoLayout";
+			sourceTree = "<group>";
+		};
+		CC4934261AC92D6000E4DC16 /* UiBarButton Custom */ = {
+			isa = PBXGroup;
+			children = (
+				CC4934231AC92D5B00E4DC16 /* UIButton+BarButton.h */,
+				CC4934241AC92D5B00E4DC16 /* UIButton+BarButton.m */,
+			);
+			name = "UiBarButton Custom";
+			sourceTree = "<group>";
+		};
+		CC4934271AC92F9D00E4DC16 /* Cutomize Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC4934261AC92D6000E4DC16 /* UiBarButton Custom */,
+				CC49342F1AC9596800E4DC16 /* UIFont+UserDefineFont.h */,
+				CC4934301AC9596800E4DC16 /* UIFont+UserDefineFont.m */,
+				CC4934281AC92FCD00E4DC16 /* SepratorLine.h */,
+				CC4934291AC92FCD00E4DC16 /* SepratorLine.m */,
+				CC49342C1AC935C900E4DC16 /* CardView.h */,
+				CC49342D1AC935C900E4DC16 /* CardView.m */,
+			);
+			name = "Cutomize Classes";
+			sourceTree = "<group>";
+		};
+		CC4934321AC96C1F00E4DC16 /* ResultController */ = {
+			isa = PBXGroup;
+			children = (
+				CC4934331AC96C6B00E4DC16 /* ResultController.h */,
+				CC4934341AC96C6B00E4DC16 /* ResultController.m */,
+			);
+			name = ResultController;
+			sourceTree = "<group>";
+		};
+		CC4934391AC97CD400E4DC16 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CC49343A1AC9818000E4DC16 /* HomeViewController.h */,
+				CC49343B1AC9818000E4DC16 /* HomeViewController.m */,
+				CC49343D1AC982AB00E4DC16 /* CitrusCashView.h */,
+				CC49343E1AC982AB00E4DC16 /* CitrusCashView.m */,
+				CC4934401AC9882B00E4DC16 /* CustomTableView.h */,
+				CC4934411AC9882B00E4DC16 /* CustomTableView.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		CC9877341AD23D2D001AB48C /* CVV */ = {
+			isa = PBXGroup;
+			children = (
+				CC9877311AD23D26001AB48C /* EnterCVVViewController.h */,
+				CC9877321AD23D26001AB48C /* EnterCVVViewController.m */,
+			);
+			name = CVV;
+			sourceTree = "<group>";
+		};
+		CC9877381AD24421001AB48C /* Base View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC9877351AD242DA001AB48C /* BaseViewController.h */,
+				CC9877361AD242DA001AB48C /* BaseViewController.m */,
+			);
+			name = "Base View Controller";
+			sourceTree = "<group>";
+		};
+		CCE41D6F1AD14C3400485F5B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CC4934431AC988FA00E4DC16 /* AppUtility.h */,
+				CC4934441AC988FA00E4DC16 /* AppUtility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4933E31AC914D000E4DC16 /* CitrusProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4934071AC914D100E4DC16 /* Build configuration list for PBXNativeTarget "CitrusProject" */;
+			buildPhases = (
+				CC4933E01AC914D000E4DC16 /* Sources */,
+				CC4933E11AC914D000E4DC16 /* Frameworks */,
+				CC4933E21AC914D000E4DC16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitrusProject;
+			productName = CitrusProject;
+			productReference = CC4933E41AC914D100E4DC16 /* CitrusProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC4933FC1AC914D100E4DC16 /* CitrusProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC49340A1AC914D100E4DC16 /* Build configuration list for PBXNativeTarget "CitrusProjectTests" */;
+			buildPhases = (
+				CC4933F91AC914D100E4DC16 /* Sources */,
+				CC4933FA1AC914D100E4DC16 /* Frameworks */,
+				CC4933FB1AC914D100E4DC16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4933FF1AC914D100E4DC16 /* PBXTargetDependency */,
+			);
+			name = CitrusProjectTests;
+			productName = CitrusProjectTests;
+			productReference = CC4933FD1AC914D100E4DC16 /* CitrusProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4933DC1AC914D000E4DC16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Nirma Garg";
+				TargetAttributes = {
+					CC4933E31AC914D000E4DC16 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CC4933FC1AC914D100E4DC16 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CC4933E31AC914D000E4DC16;
+					};
+				};
+			};
+			buildConfigurationList = CC4933DF1AC914D000E4DC16 /* Build configuration list for PBXProject "CitrusProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4933DB1AC914D000E4DC16;
+			productRefGroup = CC4933E51AC914D100E4DC16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4933E31AC914D000E4DC16 /* CitrusProject */,
+				CC4933FC1AC914D100E4DC16 /* CitrusProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4933E21AC914D000E4DC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE41D6E1AD14BE400485F5B /* .gitignore in Resources */,
+				CC4933F31AC914D100E4DC16 /* Main.storyboard in Resources */,
+				CC98773A1AD2651C001AB48C /* ocraextended.ttf in Resources */,
+				CC4933F81AC914D100E4DC16 /* LaunchScreen.xib in Resources */,
+				CC4933F51AC914D100E4DC16 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4933FB1AC914D100E4DC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4933E01AC914D000E4DC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9877371AD242DA001AB48C /* BaseViewController.m in Sources */,
+				CC49342E1AC935C900E4DC16 /* CardView.m in Sources */,
+				CC49341E1AC9173200E4DC16 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				CC4934451AC988FA00E4DC16 /* AppUtility.m in Sources */,
+				CC4933F01AC914D100E4DC16 /* ViewController.m in Sources */,
+				CC4934311AC9596800E4DC16 /* UIFont+UserDefineFont.m in Sources */,
+				CC49343F1AC982AB00E4DC16 /* CitrusCashView.m in Sources */,
+				CC4934351AC96C6B00E4DC16 /* ResultController.m in Sources */,
+				CC49340F1AC9160600E4DC16 /* AddCardController.m in Sources */,
+				CC4933ED1AC914D100E4DC16 /* AppDelegate.m in Sources */,
+				CC4934251AC92D5B00E4DC16 /* UIButton+BarButton.m in Sources */,
+				CC49343C1AC9818000E4DC16 /* HomeViewController.m in Sources */,
+				CC4934421AC9882B00E4DC16 /* CustomTableView.m in Sources */,
+				CC49342A1AC92FCD00E4DC16 /* SepratorLine.m in Sources */,
+				CC9877331AD23D26001AB48C /* EnterCVVViewController.m in Sources */,
+				CC49341C1AC9173200E4DC16 /* ALView+PureLayout.m in Sources */,
+				CC49341D1AC9173200E4DC16 /* NSArray+PureLayout.m in Sources */,
+				CC4934221AC917E500E4DC16 /* CCListViewControllers.m in Sources */,
+				CC4933EA1AC914D100E4DC16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4933F91AC914D100E4DC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4934041AC914D100E4DC16 /* CitrusProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4933FF1AC914D100E4DC16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4933E31AC914D000E4DC16 /* CitrusProject */;
+			targetProxy = CC4933FE1AC914D100E4DC16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC4933F11AC914D100E4DC16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4933F21AC914D100E4DC16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4933F61AC914D100E4DC16 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4933F71AC914D100E4DC16 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4934051AC914D100E4DC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC4934061AC914D100E4DC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4934081AC914D100E4DC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CitrusProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4934091AC914D100E4DC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CitrusProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC49340B1AC914D100E4DC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CitrusProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitrusProject.app/CitrusProject";
+			};
+			name = Debug;
+		};
+		CC49340C1AC914D100E4DC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CitrusProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitrusProject.app/CitrusProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4933DF1AC914D000E4DC16 /* Build configuration list for PBXProject "CitrusProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4934051AC914D100E4DC16 /* Debug */,
+				CC4934061AC914D100E4DC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4934071AC914D100E4DC16 /* Build configuration list for PBXNativeTarget "CitrusProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4934081AC914D100E4DC16 /* Debug */,
+				CC4934091AC914D100E4DC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC49340A1AC914D100E4DC16 /* Build configuration list for PBXNativeTarget "CitrusProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC49340B1AC914D100E4DC16 /* Debug */,
+				CC49340C1AC914D100E4DC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4933DC1AC914D000E4DC16 /* Project object */;
+}
