@@ -8,20 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
+#import "CitrusSdk.h"
 
 @class CardView ; 
 @interface AddCardController : BaseViewController{
     CardView *segementBackGround ;
     CardView *cardDetailView ; 
+        
+    BOOL isSaveCard ;
     
-    UITextField *cardNumber;
-    UITextField *cardMonth;
-    UITextField *cardYear;
-    UITextField *cardName;
-    
-    NSMutableArray *cardNumberBlocks;
-    
-    BOOL isSaveCard ; 
+    CTSAuthLayer *authLayer;
+    CTSProfileLayer *proifleLayer;
 }
 
 @end

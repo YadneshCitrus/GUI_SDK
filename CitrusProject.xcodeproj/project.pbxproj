@@ -7,6 +7,168 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		765004A01AE4F0350073031F /* CTSRestError.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004051AE4F0340073031F /* CTSRestError.m */; };
+		765004A11AE4F0350073031F /* CTSRestError.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004051AE4F0340073031F /* CTSRestError.m */; };
+		765004A21AE4F0350073031F /* CTSSignupState.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004081AE4F0340073031F /* CTSSignupState.m */; };
+		765004A31AE4F0350073031F /* CTSSignupState.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004081AE4F0340073031F /* CTSSignupState.m */; };
+		765004A41AE4F0350073031F /* CTSAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650040C1AE4F0340073031F /* CTSAmount.m */; };
+		765004A51AE4F0350073031F /* CTSAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650040C1AE4F0340073031F /* CTSAmount.m */; };
+		765004A61AE4F0350073031F /* CTSGuestCheckout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650040E1AE4F0340073031F /* CTSGuestCheckout.m */; };
+		765004A71AE4F0350073031F /* CTSGuestCheckout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650040E1AE4F0340073031F /* CTSGuestCheckout.m */; };
+		765004A81AE4F0350073031F /* CTSPaymentMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004101AE4F0340073031F /* CTSPaymentMode.m */; };
+		765004A91AE4F0350073031F /* CTSPaymentMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004101AE4F0340073031F /* CTSPaymentMode.m */; };
+		765004AA1AE4F0350073031F /* CTSPaymentNetbankingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004121AE4F0340073031F /* CTSPaymentNetbankingRequest.m */; };
+		765004AB1AE4F0350073031F /* CTSPaymentNetbankingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004121AE4F0340073031F /* CTSPaymentNetbankingRequest.m */; };
+		765004AC1AE4F0350073031F /* CTSPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004141AE4F0340073031F /* CTSPaymentRequest.m */; };
+		765004AD1AE4F0350073031F /* CTSPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004141AE4F0340073031F /* CTSPaymentRequest.m */; };
+		765004AE1AE4F0350073031F /* CTSPaymentToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004161AE4F0340073031F /* CTSPaymentToken.m */; };
+		765004AF1AE4F0350073031F /* CTSPaymentToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004161AE4F0340073031F /* CTSPaymentToken.m */; };
+		765004B01AE4F0350073031F /* CTSPaymentUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004181AE4F0340073031F /* CTSPaymentUpdate.m */; };
+		765004B11AE4F0350073031F /* CTSPaymentUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004181AE4F0340073031F /* CTSPaymentUpdate.m */; };
+		765004B21AE4F0350073031F /* CTSTokenizedCardPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650041A1AE4F0340073031F /* CTSTokenizedCardPayment.m */; };
+		765004B31AE4F0350073031F /* CTSTokenizedCardPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650041A1AE4F0340073031F /* CTSTokenizedCardPayment.m */; };
+		765004B41AE4F0350073031F /* CTSTokenizedPaymentToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650041C1AE4F0340073031F /* CTSTokenizedPaymentToken.m */; };
+		765004B51AE4F0350073031F /* CTSTokenizedPaymentToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650041C1AE4F0340073031F /* CTSTokenizedPaymentToken.m */; };
+		765004B61AE4F0350073031F /* CTSUserAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650041E1AE4F0340073031F /* CTSUserAddress.m */; };
+		765004B71AE4F0350073031F /* CTSUserAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650041E1AE4F0340073031F /* CTSUserAddress.m */; };
+		765004B81AE4F0350073031F /* CTSUserDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004201AE4F0340073031F /* CTSUserDetails.m */; };
+		765004B91AE4F0350073031F /* CTSUserDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004201AE4F0340073031F /* CTSUserDetails.m */; };
+		765004BA1AE4F0350073031F /* CTSContactUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004231AE4F0340073031F /* CTSContactUpdate.m */; };
+		765004BB1AE4F0350073031F /* CTSContactUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004231AE4F0340073031F /* CTSContactUpdate.m */; };
+		765004BC1AE4F0350073031F /* CTSElectronicCardUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004251AE4F0340073031F /* CTSElectronicCardUpdate.m */; };
+		765004BD1AE4F0350073031F /* CTSElectronicCardUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004251AE4F0340073031F /* CTSElectronicCardUpdate.m */; };
+		765004BE1AE4F0350073031F /* CTSNetBankingUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004271AE4F0340073031F /* CTSNetBankingUpdate.m */; };
+		765004BF1AE4F0350073031F /* CTSNetBankingUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004271AE4F0340073031F /* CTSNetBankingUpdate.m */; };
+		765004C01AE4F0350073031F /* CTSPaymentDetailUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004291AE4F0340073031F /* CTSPaymentDetailUpdate.m */; };
+		765004C11AE4F0350073031F /* CTSPaymentDetailUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004291AE4F0340073031F /* CTSPaymentDetailUpdate.m */; };
+		765004C21AE4F0350073031F /* CTSPaymentOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650042B1AE4F0340073031F /* CTSPaymentOption.m */; };
+		765004C31AE4F0350073031F /* CTSPaymentOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650042B1AE4F0340073031F /* CTSPaymentOption.m */; };
+		765004C41AE4F0350073031F /* CTSPrepaidUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650042D1AE4F0340073031F /* CTSPrepaidUpdate.m */; };
+		765004C51AE4F0350073031F /* CTSPrepaidUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650042D1AE4F0340073031F /* CTSPrepaidUpdate.m */; };
+		765004C61AE4F0350073031F /* CTSTokenizedPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650042F1AE4F0350073031F /* CTSTokenizedPayment.m */; };
+		765004C71AE4F0350073031F /* CTSTokenizedPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650042F1AE4F0350073031F /* CTSTokenizedPayment.m */; };
+		765004C81AE4F0350073031F /* CTSLinkUserRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004331AE4F0350073031F /* CTSLinkUserRes.m */; };
+		765004C91AE4F0350073031F /* CTSLinkUserRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004331AE4F0350073031F /* CTSLinkUserRes.m */; };
+		765004CA1AE4F0350073031F /* CTSOauthTokenRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004351AE4F0350073031F /* CTSOauthTokenRes.m */; };
+		765004CB1AE4F0350073031F /* CTSOauthTokenRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004351AE4F0350073031F /* CTSOauthTokenRes.m */; };
+		765004CC1AE4F0350073031F /* CTSSignUpRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004371AE4F0350073031F /* CTSSignUpRes.m */; };
+		765004CD1AE4F0350073031F /* CTSSignUpRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004371AE4F0350073031F /* CTSSignUpRes.m */; };
+		765004CE1AE4F0350073031F /* CitrusCashRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650043A1AE4F0350073031F /* CitrusCashRes.m */; };
+		765004CF1AE4F0350073031F /* CitrusCashRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650043A1AE4F0350073031F /* CitrusCashRes.m */; };
+		765004D01AE4F0350073031F /* CTSBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650043C1AE4F0350073031F /* CTSBill.m */; };
+		765004D11AE4F0350073031F /* CTSBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650043C1AE4F0350073031F /* CTSBill.m */; };
+		765004D21AE4F0350073031F /* CTSCreditCardOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650043E1AE4F0350073031F /* CTSCreditCardOption.m */; };
+		765004D31AE4F0350073031F /* CTSCreditCardOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650043E1AE4F0350073031F /* CTSCreditCardOption.m */; };
+		765004D41AE4F0350073031F /* CTSDebitCardOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004401AE4F0350073031F /* CTSDebitCardOption.m */; };
+		765004D51AE4F0350073031F /* CTSDebitCardOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004401AE4F0350073031F /* CTSDebitCardOption.m */; };
+		765004D61AE4F0350073031F /* CTSNetbankingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004421AE4F0350073031F /* CTSNetbankingOption.m */; };
+		765004D71AE4F0350073031F /* CTSNetbankingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004421AE4F0350073031F /* CTSNetbankingOption.m */; };
+		765004D81AE4F0350073031F /* CTSPaymentRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004441AE4F0350073031F /* CTSPaymentRes.m */; };
+		765004D91AE4F0350073031F /* CTSPaymentRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004441AE4F0350073031F /* CTSPaymentRes.m */; };
+		765004DA1AE4F0350073031F /* CTSPaymentTransactionRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004461AE4F0350073031F /* CTSPaymentTransactionRes.m */; };
+		765004DB1AE4F0350073031F /* CTSPaymentTransactionRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004461AE4F0350073031F /* CTSPaymentTransactionRes.m */; };
+		765004DC1AE4F0350073031F /* CTSPgSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004481AE4F0350073031F /* CTSPgSettings.m */; };
+		765004DD1AE4F0350073031F /* CTSPgSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004481AE4F0350073031F /* CTSPgSettings.m */; };
+		765004DE1AE4F0350073031F /* CTSPrepaidBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650044A1AE4F0350073031F /* CTSPrepaidBill.m */; };
+		765004DF1AE4F0350073031F /* CTSPrepaidBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650044A1AE4F0350073031F /* CTSPrepaidBill.m */; };
+		765004E01AE4F0350073031F /* CTSGetBalanceRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650044D1AE4F0350073031F /* CTSGetBalanceRes.m */; };
+		765004E11AE4F0350073031F /* CTSGetBalanceRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650044D1AE4F0350073031F /* CTSGetBalanceRes.m */; };
+		765004E21AE4F0350073031F /* CTSProfileContactRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650044F1AE4F0350073031F /* CTSProfileContactRes.m */; };
+		765004E31AE4F0350073031F /* CTSProfileContactRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650044F1AE4F0350073031F /* CTSProfileContactRes.m */; };
+		765004E41AE4F0350073031F /* CTSProfilePaymentRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004511AE4F0350073031F /* CTSProfilePaymentRes.m */; };
+		765004E51AE4F0350073031F /* CTSProfilePaymentRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004511AE4F0350073031F /* CTSProfilePaymentRes.m */; };
+		765004E61AE4F0350073031F /* CTSProfilePrepaidRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004531AE4F0350073031F /* CTSProfilePrepaidRes.m */; };
+		765004E71AE4F0350073031F /* CTSProfilePrepaidRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004531AE4F0350073031F /* CTSProfilePrepaidRes.m */; };
+		765004E81AE4F0350073031F /* GetProfileRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004551AE4F0350073031F /* GetProfileRes.m */; };
+		765004E91AE4F0350073031F /* GetProfileRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004551AE4F0350073031F /* GetProfileRes.m */; };
+		765004EA1AE4F0350073031F /* CTSAuthLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650045A1AE4F0350073031F /* CTSAuthLayer.m */; };
+		765004EB1AE4F0350073031F /* CTSAuthLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650045A1AE4F0350073031F /* CTSAuthLayer.m */; };
+		765004EC1AE4F0350073031F /* CTSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650045E1AE4F0350073031F /* CTSError.m */; };
+		765004ED1AE4F0350073031F /* CTSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650045E1AE4F0350073031F /* CTSError.m */; };
+		765004EE1AE4F0350073031F /* CTSOauthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004621AE4F0350073031F /* CTSOauthManager.m */; };
+		765004EF1AE4F0350073031F /* CTSOauthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004621AE4F0350073031F /* CTSOauthManager.m */; };
+		765004F01AE4F0350073031F /* CTSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004641AE4F0350073031F /* CTSObject.m */; };
+		765004F11AE4F0350073031F /* CTSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004641AE4F0350073031F /* CTSObject.m */; };
+		765004F21AE4F0350073031F /* CTSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004661AE4F0350073031F /* CTSUtility.m */; };
+		765004F31AE4F0350073031F /* CTSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004661AE4F0350073031F /* CTSUtility.m */; };
+		765004F41AE4F0350073031F /* OauthStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004681AE4F0350073031F /* OauthStatus.m */; };
+		765004F51AE4F0350073031F /* OauthStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004681AE4F0350073031F /* OauthStatus.m */; };
+		765004F61AE4F0350073031F /* CTSRestCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650046C1AE4F0350073031F /* CTSRestCore.m */; };
+		765004F71AE4F0350073031F /* CTSRestCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650046C1AE4F0350073031F /* CTSRestCore.m */; };
+		765004F81AE4F0350073031F /* CTSRestCoreRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650046F1AE4F0350073031F /* CTSRestCoreRequest.m */; };
+		765004F91AE4F0350073031F /* CTSRestCoreRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650046F1AE4F0350073031F /* CTSRestCoreRequest.m */; };
+		765004FA1AE4F0350073031F /* CTSRestCoreResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004711AE4F0350073031F /* CTSRestCoreResponse.m */; };
+		765004FB1AE4F0350073031F /* CTSRestCoreResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004711AE4F0350073031F /* CTSRestCoreResponse.m */; };
+		765004FC1AE4F0350073031F /* CTSRestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004731AE4F0350073031F /* CTSRestObject.m */; };
+		765004FD1AE4F0350073031F /* CTSRestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004731AE4F0350073031F /* CTSRestObject.m */; };
+		765004FE1AE4F0350073031F /* CTSRestPluginBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004751AE4F0350073031F /* CTSRestPluginBase.m */; };
+		765004FF1AE4F0350073031F /* CTSRestPluginBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004751AE4F0350073031F /* CTSRestPluginBase.m */; };
+		765005001AE4F0350073031F /* CreditCard-Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004781AE4F0350073031F /* CreditCard-Validator.m */; };
+		765005011AE4F0350073031F /* CreditCard-Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004781AE4F0350073031F /* CreditCard-Validator.m */; };
+		765005021AE4F0350073031F /* JSONModel+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650047C1AE4F0350073031F /* JSONModel+CoreData.m */; };
+		765005031AE4F0350073031F /* JSONModel+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650047C1AE4F0350073031F /* JSONModel+CoreData.m */; };
+		765005041AE4F0350073031F /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650047E1AE4F0350073031F /* JSONModel.m */; };
+		765005051AE4F0350073031F /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650047E1AE4F0350073031F /* JSONModel.m */; };
+		765005061AE4F0350073031F /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004801AE4F0350073031F /* JSONModelArray.m */; };
+		765005071AE4F0350073031F /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004801AE4F0350073031F /* JSONModelArray.m */; };
+		765005081AE4F0350073031F /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004821AE4F0350073031F /* JSONModelClassProperty.m */; };
+		765005091AE4F0350073031F /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004821AE4F0350073031F /* JSONModelClassProperty.m */; };
+		7650050A1AE4F0350073031F /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004841AE4F0350073031F /* JSONModelError.m */; };
+		7650050B1AE4F0350073031F /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004841AE4F0350073031F /* JSONModelError.m */; };
+		7650050C1AE4F0350073031F /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004871AE4F0350073031F /* NSArray+JSONModel.m */; };
+		7650050D1AE4F0350073031F /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004871AE4F0350073031F /* NSArray+JSONModel.m */; };
+		7650050E1AE4F0350073031F /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650048B1AE4F0350073031F /* JSONAPI.m */; };
+		7650050F1AE4F0350073031F /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650048B1AE4F0350073031F /* JSONAPI.m */; };
+		765005101AE4F0350073031F /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650048D1AE4F0350073031F /* JSONHTTPClient.m */; };
+		765005111AE4F0350073031F /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650048D1AE4F0350073031F /* JSONHTTPClient.m */; };
+		765005121AE4F0350073031F /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650048F1AE4F0350073031F /* JSONModel+networking.m */; };
+		765005131AE4F0350073031F /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650048F1AE4F0350073031F /* JSONModel+networking.m */; };
+		765005141AE4F0350073031F /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004921AE4F0350073031F /* JSONKeyMapper.m */; };
+		765005151AE4F0350073031F /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004921AE4F0350073031F /* JSONKeyMapper.m */; };
+		765005161AE4F0350073031F /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004941AE4F0350073031F /* JSONValueTransformer.m */; };
+		765005171AE4F0350073031F /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004941AE4F0350073031F /* JSONValueTransformer.m */; };
+		765005181AE4F0350073031F /* NSObject+logProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004971AE4F0350073031F /* NSObject+logProperties.m */; };
+		765005191AE4F0350073031F /* NSObject+logProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004971AE4F0350073031F /* NSObject+logProperties.m */; };
+		7650051A1AE4F0350073031F /* CTSPaymentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650049A1AE4F0350073031F /* CTSPaymentLayer.m */; };
+		7650051B1AE4F0350073031F /* CTSPaymentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650049A1AE4F0350073031F /* CTSPaymentLayer.m */; };
+		7650051C1AE4F0350073031F /* CTSProfileLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650049E1AE4F0350073031F /* CTSProfileLayer.m */; };
+		7650051D1AE4F0350073031F /* CTSProfileLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650049E1AE4F0350073031F /* CTSProfileLayer.m */; };
+		76CF01031AE767AE0029A0B1 /* buttonbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F31AE767AE0029A0B1 /* buttonbackground.png */; };
+		76CF01041AE767AE0029A0B1 /* buttonbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F31AE767AE0029A0B1 /* buttonbackground.png */; };
+		76CF01051AE767AE0029A0B1 /* amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F51AE767AE0029A0B1 /* amex.png */; };
+		76CF01061AE767AE0029A0B1 /* amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F51AE767AE0029A0B1 /* amex.png */; };
+		76CF01071AE767AE0029A0B1 /* amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F61AE767AE0029A0B1 /* amex@2x.png */; };
+		76CF01081AE767AE0029A0B1 /* amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F61AE767AE0029A0B1 /* amex@2x.png */; };
+		76CF01091AE767AE0029A0B1 /* AXISlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F71AE767AE0029A0B1 /* AXISlogo.png */; };
+		76CF010A1AE767AE0029A0B1 /* AXISlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F71AE767AE0029A0B1 /* AXISlogo.png */; };
+		76CF010B1AE767AE0029A0B1 /* AXISlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F81AE767AE0029A0B1 /* AXISlogo@2x.png */; };
+		76CF010C1AE767AE0029A0B1 /* AXISlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F81AE767AE0029A0B1 /* AXISlogo@2x.png */; };
+		76CF010D1AE767AE0029A0B1 /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F91AE767AE0029A0B1 /* discover.png */; };
+		76CF010E1AE767AE0029A0B1 /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F91AE767AE0029A0B1 /* discover.png */; };
+		76CF010F1AE767AE0029A0B1 /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FA1AE767AE0029A0B1 /* discover@2x.png */; };
+		76CF01101AE767AE0029A0B1 /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FA1AE767AE0029A0B1 /* discover@2x.png */; };
+		76CF01111AE767AE0029A0B1 /* maestro.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FB1AE767AE0029A0B1 /* maestro.png */; };
+		76CF01121AE767AE0029A0B1 /* maestro.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FB1AE767AE0029A0B1 /* maestro.png */; };
+		76CF01131AE767AE0029A0B1 /* maestro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FC1AE767AE0029A0B1 /* maestro@2x.png */; };
+		76CF01141AE767AE0029A0B1 /* maestro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FC1AE767AE0029A0B1 /* maestro@2x.png */; };
+		76CF01151AE767AE0029A0B1 /* mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FD1AE767AE0029A0B1 /* mastercard.png */; };
+		76CF01161AE767AE0029A0B1 /* mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FD1AE767AE0029A0B1 /* mastercard.png */; };
+		76CF01171AE767AE0029A0B1 /* mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FE1AE767AE0029A0B1 /* mastercard@2x.png */; };
+		76CF01181AE767AE0029A0B1 /* mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FE1AE767AE0029A0B1 /* mastercard@2x.png */; };
+		76CF01191AE767AE0029A0B1 /* rupay.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FF1AE767AE0029A0B1 /* rupay.png */; };
+		76CF011A1AE767AE0029A0B1 /* rupay.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FF1AE767AE0029A0B1 /* rupay.png */; };
+		76CF011B1AE767AE0029A0B1 /* rupay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01001AE767AE0029A0B1 /* rupay@2x.png */; };
+		76CF011C1AE767AE0029A0B1 /* rupay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01001AE767AE0029A0B1 /* rupay@2x.png */; };
+		76CF011D1AE767AE0029A0B1 /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01011AE767AE0029A0B1 /* visa.png */; };
+		76CF011E1AE767AE0029A0B1 /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01011AE767AE0029A0B1 /* visa.png */; };
+		76CF011F1AE767AE0029A0B1 /* visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01021AE767AE0029A0B1 /* visa@2x.png */; };
+		76CF01201AE767AE0029A0B1 /* visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01021AE767AE0029A0B1 /* visa@2x.png */; };
+		76CF01241AE7C1790029A0B1 /* UIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CF01231AE7C1790029A0B1 /* UIUtility.m */; };
+		76CF01251AE7C1790029A0B1 /* UIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CF01231AE7C1790029A0B1 /* UIUtility.m */; };
+		76CF012A1AE7D9710029A0B1 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01271AE7D9710029A0B1 /* error@2x.png */; };
+		76CF012B1AE7D9710029A0B1 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01271AE7D9710029A0B1 /* error@2x.png */; };
+		76CF012C1AE7D9710029A0B1 /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CF01291AE7D9710029A0B1 /* TextFieldValidator.m */; };
+		76CF012D1AE7D9710029A0B1 /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CF01291AE7D9710029A0B1 /* TextFieldValidator.m */; };
 		CC4933EA1AC914D100E4DC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4933E91AC914D100E4DC16 /* main.m */; };
 		CC4933ED1AC914D100E4DC16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4933EC1AC914D100E4DC16 /* AppDelegate.m */; };
 		CC4933F01AC914D100E4DC16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4933EF1AC914D100E4DC16 /* ViewController.m */; };
@@ -45,6 +207,163 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		765004021AE4F0340073031F /* CitrusSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitrusSdk.h; sourceTree = "<group>"; };
+		765004041AE4F0340073031F /* CTSRestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestError.h; sourceTree = "<group>"; };
+		765004051AE4F0340073031F /* CTSRestError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSRestError.m; sourceTree = "<group>"; };
+		765004071AE4F0340073031F /* CTSSignupState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSSignupState.h; sourceTree = "<group>"; };
+		765004081AE4F0340073031F /* CTSSignupState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSSignupState.m; sourceTree = "<group>"; };
+		7650040B1AE4F0340073031F /* CTSAmount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSAmount.h; sourceTree = "<group>"; };
+		7650040C1AE4F0340073031F /* CTSAmount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSAmount.m; sourceTree = "<group>"; };
+		7650040D1AE4F0340073031F /* CTSGuestCheckout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSGuestCheckout.h; sourceTree = "<group>"; };
+		7650040E1AE4F0340073031F /* CTSGuestCheckout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSGuestCheckout.m; sourceTree = "<group>"; };
+		7650040F1AE4F0340073031F /* CTSPaymentMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentMode.h; sourceTree = "<group>"; };
+		765004101AE4F0340073031F /* CTSPaymentMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPaymentMode.m; sourceTree = "<group>"; };
+		765004111AE4F0340073031F /* CTSPaymentNetbankingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentNetbankingRequest.h; sourceTree = "<group>"; };
+		765004121AE4F0340073031F /* CTSPaymentNetbankingRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPaymentNetbankingRequest.m; sourceTree = "<group>"; };
+		765004131AE4F0340073031F /* CTSPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentRequest.h; sourceTree = "<group>"; };
+		765004141AE4F0340073031F /* CTSPaymentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPaymentRequest.m; sourceTree = "<group>"; };
+		765004151AE4F0340073031F /* CTSPaymentToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentToken.h; sourceTree = "<group>"; };
+		765004161AE4F0340073031F /* CTSPaymentToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPaymentToken.m; sourceTree = "<group>"; };
+		765004171AE4F0340073031F /* CTSPaymentUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentUpdate.h; sourceTree = "<group>"; };
+		765004181AE4F0340073031F /* CTSPaymentUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPaymentUpdate.m; sourceTree = "<group>"; };
+		765004191AE4F0340073031F /* CTSTokenizedCardPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSTokenizedCardPayment.h; sourceTree = "<group>"; };
+		7650041A1AE4F0340073031F /* CTSTokenizedCardPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSTokenizedCardPayment.m; sourceTree = "<group>"; };
+		7650041B1AE4F0340073031F /* CTSTokenizedPaymentToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSTokenizedPaymentToken.h; sourceTree = "<group>"; };
+		7650041C1AE4F0340073031F /* CTSTokenizedPaymentToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSTokenizedPaymentToken.m; sourceTree = "<group>"; };
+		7650041D1AE4F0340073031F /* CTSUserAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUserAddress.h; sourceTree = "<group>"; };
+		7650041E1AE4F0340073031F /* CTSUserAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSUserAddress.m; sourceTree = "<group>"; };
+		7650041F1AE4F0340073031F /* CTSUserDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUserDetails.h; sourceTree = "<group>"; };
+		765004201AE4F0340073031F /* CTSUserDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSUserDetails.m; sourceTree = "<group>"; };
+		765004221AE4F0340073031F /* CTSContactUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSContactUpdate.h; sourceTree = "<group>"; };
+		765004231AE4F0340073031F /* CTSContactUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSContactUpdate.m; sourceTree = "<group>"; };
+		765004241AE4F0340073031F /* CTSElectronicCardUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSElectronicCardUpdate.h; sourceTree = "<group>"; };
+		765004251AE4F0340073031F /* CTSElectronicCardUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSElectronicCardUpdate.m; sourceTree = "<group>"; };
+		765004261AE4F0340073031F /* CTSNetBankingUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNetBankingUpdate.h; sourceTree = "<group>"; };
+		765004271AE4F0340073031F /* CTSNetBankingUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSNetBankingUpdate.m; sourceTree = "<group>"; };
+		765004281AE4F0340073031F /* CTSPaymentDetailUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentDetailUpdate.h; sourceTree = "<group>"; };
+		765004291AE4F0340073031F /* CTSPaymentDetailUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPaymentDetailUpdate.m; sourceTree = "<group>"; };
+		7650042A1AE4F0340073031F /* CTSPaymentOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentOption.h; sourceTree = "<group>"; };
+		7650042B1AE4F0340073031F /* CTSPaymentOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPaymentOption.m; sourceTree = "<group>"; };
+		7650042C1AE4F0340073031F /* CTSPrepaidUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPrepaidUpdate.h; sourceTree = "<group>"; };
+		7650042D1AE4F0340073031F /* CTSPrepaidUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPrepaidUpdate.m; sourceTree = "<group>"; };
+		7650042E1AE4F0350073031F /* CTSTokenizedPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSTokenizedPayment.h; sourceTree = "<group>"; };
+		7650042F1AE4F0350073031F /* CTSTokenizedPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSTokenizedPayment.m; sourceTree = "<group>"; };
+		765004321AE4F0350073031F /* CTSLinkUserRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSLinkUserRes.h; sourceTree = "<group>"; };
+		765004331AE4F0350073031F /* CTSLinkUserRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSLinkUserRes.m; sourceTree = "<group>"; };
+		765004341AE4F0350073031F /* CTSOauthTokenRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSOauthTokenRes.h; sourceTree = "<group>"; };
+		765004351AE4F0350073031F /* CTSOauthTokenRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSOauthTokenRes.m; sourceTree = "<group>"; };
+		765004361AE4F0350073031F /* CTSSignUpRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSSignUpRes.h; sourceTree = "<group>"; };
+		765004371AE4F0350073031F /* CTSSignUpRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSSignUpRes.m; sourceTree = "<group>"; };
+		765004391AE4F0350073031F /* CitrusCashRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitrusCashRes.h; sourceTree = "<group>"; };
+		7650043A1AE4F0350073031F /* CitrusCashRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitrusCashRes.m; sourceTree = "<group>"; };
+		7650043B1AE4F0350073031F /* CTSBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSBill.h; sourceTree = "<group>"; };
+		7650043C1AE4F0350073031F /* CTSBill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSBill.m; sourceTree = "<group>"; };
+		7650043D1AE4F0350073031F /* CTSCreditCardOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCreditCardOption.h; sourceTree = "<group>"; };
+		7650043E1AE4F0350073031F /* CTSCreditCardOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSCreditCardOption.m; sourceTree = "<group>"; };
+		7650043F1AE4F0350073031F /* CTSDebitCardOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSDebitCardOption.h; sourceTree = "<group>"; };
+		765004401AE4F0350073031F /* CTSDebitCardOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSDebitCardOption.m; sourceTree = "<group>"; };
+		765004411AE4F0350073031F /* CTSNetbankingOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNetbankingOption.h; sourceTree = "<group>"; };
+		765004421AE4F0350073031F /* CTSNetbankingOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSNetbankingOption.m; sourceTree = "<group>"; };
+		765004431AE4F0350073031F /* CTSPaymentRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentRes.h; sourceTree = "<group>"; };
+		765004441AE4F0350073031F /* CTSPaymentRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPaymentRes.m; sourceTree = "<group>"; };
+		765004451AE4F0350073031F /* CTSPaymentTransactionRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentTransactionRes.h; sourceTree = "<group>"; };
+		765004461AE4F0350073031F /* CTSPaymentTransactionRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPaymentTransactionRes.m; sourceTree = "<group>"; };
+		765004471AE4F0350073031F /* CTSPgSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPgSettings.h; sourceTree = "<group>"; };
+		765004481AE4F0350073031F /* CTSPgSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPgSettings.m; sourceTree = "<group>"; };
+		765004491AE4F0350073031F /* CTSPrepaidBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPrepaidBill.h; sourceTree = "<group>"; };
+		7650044A1AE4F0350073031F /* CTSPrepaidBill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPrepaidBill.m; sourceTree = "<group>"; };
+		7650044C1AE4F0350073031F /* CTSGetBalanceRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSGetBalanceRes.h; sourceTree = "<group>"; };
+		7650044D1AE4F0350073031F /* CTSGetBalanceRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSGetBalanceRes.m; sourceTree = "<group>"; };
+		7650044E1AE4F0350073031F /* CTSProfileContactRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileContactRes.h; sourceTree = "<group>"; };
+		7650044F1AE4F0350073031F /* CTSProfileContactRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSProfileContactRes.m; sourceTree = "<group>"; };
+		765004501AE4F0350073031F /* CTSProfilePaymentRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfilePaymentRes.h; sourceTree = "<group>"; };
+		765004511AE4F0350073031F /* CTSProfilePaymentRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSProfilePaymentRes.m; sourceTree = "<group>"; };
+		765004521AE4F0350073031F /* CTSProfilePrepaidRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfilePrepaidRes.h; sourceTree = "<group>"; };
+		765004531AE4F0350073031F /* CTSProfilePrepaidRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSProfilePrepaidRes.m; sourceTree = "<group>"; };
+		765004541AE4F0350073031F /* GetProfileRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetProfileRes.h; sourceTree = "<group>"; };
+		765004551AE4F0350073031F /* GetProfileRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetProfileRes.m; sourceTree = "<group>"; };
+		765004561AE4F0350073031F /* MerchantConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantConstants.h; sourceTree = "<group>"; };
+		765004591AE4F0350073031F /* CTSAuthLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSAuthLayer.h; sourceTree = "<group>"; };
+		7650045A1AE4F0350073031F /* CTSAuthLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSAuthLayer.m; sourceTree = "<group>"; };
+		7650045B1AE4F0350073031F /* CTSAuthLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSAuthLayerConstants.h; sourceTree = "<group>"; };
+		7650045D1AE4F0350073031F /* CTSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSError.h; sourceTree = "<group>"; };
+		7650045E1AE4F0350073031F /* CTSError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSError.m; sourceTree = "<group>"; };
+		765004601AE4F0350073031F /* CTSCoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCoreProtocol.h; sourceTree = "<group>"; };
+		765004611AE4F0350073031F /* CTSOauthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSOauthManager.h; sourceTree = "<group>"; };
+		765004621AE4F0350073031F /* CTSOauthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSOauthManager.m; sourceTree = "<group>"; };
+		765004631AE4F0350073031F /* CTSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSObject.h; sourceTree = "<group>"; };
+		765004641AE4F0350073031F /* CTSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSObject.m; sourceTree = "<group>"; };
+		765004651AE4F0350073031F /* CTSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUtility.h; sourceTree = "<group>"; };
+		765004661AE4F0350073031F /* CTSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSUtility.m; sourceTree = "<group>"; };
+		765004671AE4F0350073031F /* OauthStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OauthStatus.h; sourceTree = "<group>"; };
+		765004681AE4F0350073031F /* OauthStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OauthStatus.m; sourceTree = "<group>"; };
+		765004691AE4F0350073031F /* RestLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestLayerConstants.h; sourceTree = "<group>"; };
+		7650046B1AE4F0350073031F /* CTSRestCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCore.h; sourceTree = "<group>"; };
+		7650046C1AE4F0350073031F /* CTSRestCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSRestCore.m; sourceTree = "<group>"; };
+		7650046D1AE4F0350073031F /* CTSRestCoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCoreConstants.h; sourceTree = "<group>"; };
+		7650046E1AE4F0350073031F /* CTSRestCoreRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCoreRequest.h; sourceTree = "<group>"; };
+		7650046F1AE4F0350073031F /* CTSRestCoreRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSRestCoreRequest.m; sourceTree = "<group>"; };
+		765004701AE4F0350073031F /* CTSRestCoreResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCoreResponse.h; sourceTree = "<group>"; };
+		765004711AE4F0350073031F /* CTSRestCoreResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSRestCoreResponse.m; sourceTree = "<group>"; };
+		765004721AE4F0350073031F /* CTSRestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestObject.h; sourceTree = "<group>"; };
+		765004731AE4F0350073031F /* CTSRestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSRestObject.m; sourceTree = "<group>"; };
+		765004741AE4F0350073031F /* CTSRestPluginBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestPluginBase.h; sourceTree = "<group>"; };
+		765004751AE4F0350073031F /* CTSRestPluginBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSRestPluginBase.m; sourceTree = "<group>"; };
+		765004771AE4F0350073031F /* CreditCard-Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CreditCard-Validator.h"; sourceTree = "<group>"; };
+		765004781AE4F0350073031F /* CreditCard-Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CreditCard-Validator.m"; sourceTree = "<group>"; };
+		7650047B1AE4F0350073031F /* JSONModel+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+CoreData.h"; sourceTree = "<group>"; };
+		7650047C1AE4F0350073031F /* JSONModel+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+CoreData.m"; sourceTree = "<group>"; };
+		7650047D1AE4F0350073031F /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		7650047E1AE4F0350073031F /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		7650047F1AE4F0350073031F /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		765004801AE4F0350073031F /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		765004811AE4F0350073031F /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		765004821AE4F0350073031F /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		765004831AE4F0350073031F /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		765004841AE4F0350073031F /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		765004861AE4F0350073031F /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		765004871AE4F0350073031F /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		765004881AE4F0350073031F /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		7650048A1AE4F0350073031F /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		7650048B1AE4F0350073031F /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		7650048C1AE4F0350073031F /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		7650048D1AE4F0350073031F /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		7650048E1AE4F0350073031F /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		7650048F1AE4F0350073031F /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		765004911AE4F0350073031F /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		765004921AE4F0350073031F /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		765004931AE4F0350073031F /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		765004941AE4F0350073031F /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		765004951AE4F0350073031F /* UserLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLogging.h; sourceTree = "<group>"; };
+		765004961AE4F0350073031F /* NSObject+logProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+logProperties.h"; sourceTree = "<group>"; };
+		765004971AE4F0350073031F /* NSObject+logProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+logProperties.m"; sourceTree = "<group>"; };
+		765004991AE4F0350073031F /* CTSPaymentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentLayer.h; sourceTree = "<group>"; };
+		7650049A1AE4F0350073031F /* CTSPaymentLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSPaymentLayer.m; sourceTree = "<group>"; };
+		7650049B1AE4F0350073031F /* CTSPaymentLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentLayerConstants.h; sourceTree = "<group>"; };
+		7650049D1AE4F0350073031F /* CTSProfileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileLayer.h; sourceTree = "<group>"; };
+		7650049E1AE4F0350073031F /* CTSProfileLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSProfileLayer.m; sourceTree = "<group>"; };
+		7650049F1AE4F0350073031F /* CTSProfileLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileLayerConstants.h; sourceTree = "<group>"; };
+		7650051E1AE50D270073031F /* TestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestParams.h; sourceTree = "<group>"; };
+		76CF00F31AE767AE0029A0B1 /* buttonbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonbackground.png; sourceTree = "<group>"; };
+		76CF00F51AE767AE0029A0B1 /* amex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amex.png; sourceTree = "<group>"; };
+		76CF00F61AE767AE0029A0B1 /* amex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amex@2x.png"; sourceTree = "<group>"; };
+		76CF00F71AE767AE0029A0B1 /* AXISlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AXISlogo.png; sourceTree = "<group>"; };
+		76CF00F81AE767AE0029A0B1 /* AXISlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AXISlogo@2x.png"; sourceTree = "<group>"; };
+		76CF00F91AE767AE0029A0B1 /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
+		76CF00FA1AE767AE0029A0B1 /* discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@2x.png"; sourceTree = "<group>"; };
+		76CF00FB1AE767AE0029A0B1 /* maestro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maestro.png; sourceTree = "<group>"; };
+		76CF00FC1AE767AE0029A0B1 /* maestro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maestro@2x.png"; sourceTree = "<group>"; };
+		76CF00FD1AE767AE0029A0B1 /* mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mastercard.png; sourceTree = "<group>"; };
+		76CF00FE1AE767AE0029A0B1 /* mastercard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mastercard@2x.png"; sourceTree = "<group>"; };
+		76CF00FF1AE767AE0029A0B1 /* rupay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rupay.png; sourceTree = "<group>"; };
+		76CF01001AE767AE0029A0B1 /* rupay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rupay@2x.png"; sourceTree = "<group>"; };
+		76CF01011AE767AE0029A0B1 /* visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa.png; sourceTree = "<group>"; };
+		76CF01021AE767AE0029A0B1 /* visa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa@2x.png"; sourceTree = "<group>"; };
+		76CF01221AE7C1790029A0B1 /* UIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtility.h; sourceTree = "<group>"; };
+		76CF01231AE7C1790029A0B1 /* UIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtility.m; sourceTree = "<group>"; };
+		76CF01271AE7D9710029A0B1 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		76CF01281AE7D9710029A0B1 /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
+		76CF01291AE7D9710029A0B1 /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
 		CC4933E41AC914D100E4DC16 /* CitrusProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitrusProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4933E81AC914D100E4DC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC4933E91AC914D100E4DC16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -116,9 +435,381 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		765004011AE4F0340073031F /* CitrusDevKit */ = {
+			isa = PBXGroup;
+			children = (
+				765004021AE4F0340073031F /* CitrusSdk.h */,
+				765004031AE4F0340073031F /* Data */,
+				765004561AE4F0350073031F /* MerchantConstants.h */,
+				765004571AE4F0350073031F /* ModelLayers */,
+			);
+			path = CitrusDevKit;
+			sourceTree = "<group>";
+		};
+		765004031AE4F0340073031F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				765004041AE4F0340073031F /* CTSRestError.h */,
+				765004051AE4F0340073031F /* CTSRestError.m */,
+				765004061AE4F0340073031F /* dto */,
+				765004091AE4F0340073031F /* RequestObjects */,
+				765004301AE4F0350073031F /* ResponseObjects */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		765004061AE4F0340073031F /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				765004071AE4F0340073031F /* CTSSignupState.h */,
+				765004081AE4F0340073031F /* CTSSignupState.m */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		765004091AE4F0340073031F /* RequestObjects */ = {
+			isa = PBXGroup;
+			children = (
+				7650040A1AE4F0340073031F /* Payment */,
+				765004211AE4F0340073031F /* UserProfile */,
+			);
+			path = RequestObjects;
+			sourceTree = "<group>";
+		};
+		7650040A1AE4F0340073031F /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				7650040B1AE4F0340073031F /* CTSAmount.h */,
+				7650040C1AE4F0340073031F /* CTSAmount.m */,
+				7650040D1AE4F0340073031F /* CTSGuestCheckout.h */,
+				7650040E1AE4F0340073031F /* CTSGuestCheckout.m */,
+				7650040F1AE4F0340073031F /* CTSPaymentMode.h */,
+				765004101AE4F0340073031F /* CTSPaymentMode.m */,
+				765004111AE4F0340073031F /* CTSPaymentNetbankingRequest.h */,
+				765004121AE4F0340073031F /* CTSPaymentNetbankingRequest.m */,
+				765004131AE4F0340073031F /* CTSPaymentRequest.h */,
+				765004141AE4F0340073031F /* CTSPaymentRequest.m */,
+				765004151AE4F0340073031F /* CTSPaymentToken.h */,
+				765004161AE4F0340073031F /* CTSPaymentToken.m */,
+				765004171AE4F0340073031F /* CTSPaymentUpdate.h */,
+				765004181AE4F0340073031F /* CTSPaymentUpdate.m */,
+				765004191AE4F0340073031F /* CTSTokenizedCardPayment.h */,
+				7650041A1AE4F0340073031F /* CTSTokenizedCardPayment.m */,
+				7650041B1AE4F0340073031F /* CTSTokenizedPaymentToken.h */,
+				7650041C1AE4F0340073031F /* CTSTokenizedPaymentToken.m */,
+				7650041D1AE4F0340073031F /* CTSUserAddress.h */,
+				7650041E1AE4F0340073031F /* CTSUserAddress.m */,
+				7650041F1AE4F0340073031F /* CTSUserDetails.h */,
+				765004201AE4F0340073031F /* CTSUserDetails.m */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		765004211AE4F0340073031F /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				765004221AE4F0340073031F /* CTSContactUpdate.h */,
+				765004231AE4F0340073031F /* CTSContactUpdate.m */,
+				765004241AE4F0340073031F /* CTSElectronicCardUpdate.h */,
+				765004251AE4F0340073031F /* CTSElectronicCardUpdate.m */,
+				765004261AE4F0340073031F /* CTSNetBankingUpdate.h */,
+				765004271AE4F0340073031F /* CTSNetBankingUpdate.m */,
+				765004281AE4F0340073031F /* CTSPaymentDetailUpdate.h */,
+				765004291AE4F0340073031F /* CTSPaymentDetailUpdate.m */,
+				7650042A1AE4F0340073031F /* CTSPaymentOption.h */,
+				7650042B1AE4F0340073031F /* CTSPaymentOption.m */,
+				7650042C1AE4F0340073031F /* CTSPrepaidUpdate.h */,
+				7650042D1AE4F0340073031F /* CTSPrepaidUpdate.m */,
+				7650042E1AE4F0350073031F /* CTSTokenizedPayment.h */,
+				7650042F1AE4F0350073031F /* CTSTokenizedPayment.m */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		765004301AE4F0350073031F /* ResponseObjects */ = {
+			isa = PBXGroup;
+			children = (
+				765004311AE4F0350073031F /* Authentication */,
+				765004381AE4F0350073031F /* Payment */,
+				7650044B1AE4F0350073031F /* UserProfile */,
+			);
+			path = ResponseObjects;
+			sourceTree = "<group>";
+		};
+		765004311AE4F0350073031F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				765004321AE4F0350073031F /* CTSLinkUserRes.h */,
+				765004331AE4F0350073031F /* CTSLinkUserRes.m */,
+				765004341AE4F0350073031F /* CTSOauthTokenRes.h */,
+				765004351AE4F0350073031F /* CTSOauthTokenRes.m */,
+				765004361AE4F0350073031F /* CTSSignUpRes.h */,
+				765004371AE4F0350073031F /* CTSSignUpRes.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		765004381AE4F0350073031F /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				765004391AE4F0350073031F /* CitrusCashRes.h */,
+				7650043A1AE4F0350073031F /* CitrusCashRes.m */,
+				7650043B1AE4F0350073031F /* CTSBill.h */,
+				7650043C1AE4F0350073031F /* CTSBill.m */,
+				7650043D1AE4F0350073031F /* CTSCreditCardOption.h */,
+				7650043E1AE4F0350073031F /* CTSCreditCardOption.m */,
+				7650043F1AE4F0350073031F /* CTSDebitCardOption.h */,
+				765004401AE4F0350073031F /* CTSDebitCardOption.m */,
+				765004411AE4F0350073031F /* CTSNetbankingOption.h */,
+				765004421AE4F0350073031F /* CTSNetbankingOption.m */,
+				765004431AE4F0350073031F /* CTSPaymentRes.h */,
+				765004441AE4F0350073031F /* CTSPaymentRes.m */,
+				765004451AE4F0350073031F /* CTSPaymentTransactionRes.h */,
+				765004461AE4F0350073031F /* CTSPaymentTransactionRes.m */,
+				765004471AE4F0350073031F /* CTSPgSettings.h */,
+				765004481AE4F0350073031F /* CTSPgSettings.m */,
+				765004491AE4F0350073031F /* CTSPrepaidBill.h */,
+				7650044A1AE4F0350073031F /* CTSPrepaidBill.m */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		7650044B1AE4F0350073031F /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				7650044C1AE4F0350073031F /* CTSGetBalanceRes.h */,
+				7650044D1AE4F0350073031F /* CTSGetBalanceRes.m */,
+				7650044E1AE4F0350073031F /* CTSProfileContactRes.h */,
+				7650044F1AE4F0350073031F /* CTSProfileContactRes.m */,
+				765004501AE4F0350073031F /* CTSProfilePaymentRes.h */,
+				765004511AE4F0350073031F /* CTSProfilePaymentRes.m */,
+				765004521AE4F0350073031F /* CTSProfilePrepaidRes.h */,
+				765004531AE4F0350073031F /* CTSProfilePrepaidRes.m */,
+				765004541AE4F0350073031F /* GetProfileRes.h */,
+				765004551AE4F0350073031F /* GetProfileRes.m */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		765004571AE4F0350073031F /* ModelLayers */ = {
+			isa = PBXGroup;
+			children = (
+				765004581AE4F0350073031F /* Authentication */,
+				7650045C1AE4F0350073031F /* CitrusError */,
+				7650045F1AE4F0350073031F /* Core */,
+				7650046A1AE4F0350073031F /* CTSRestKitCode */,
+				765004761AE4F0350073031F /* External */,
+				765004961AE4F0350073031F /* NSObject+logProperties.h */,
+				765004971AE4F0350073031F /* NSObject+logProperties.m */,
+				765004981AE4F0350073031F /* Payment */,
+				7650049C1AE4F0350073031F /* UserProfile */,
+			);
+			path = ModelLayers;
+			sourceTree = "<group>";
+		};
+		765004581AE4F0350073031F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				765004591AE4F0350073031F /* CTSAuthLayer.h */,
+				7650045A1AE4F0350073031F /* CTSAuthLayer.m */,
+				7650045B1AE4F0350073031F /* CTSAuthLayerConstants.h */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		7650045C1AE4F0350073031F /* CitrusError */ = {
+			isa = PBXGroup;
+			children = (
+				7650045D1AE4F0350073031F /* CTSError.h */,
+				7650045E1AE4F0350073031F /* CTSError.m */,
+			);
+			path = CitrusError;
+			sourceTree = "<group>";
+		};
+		7650045F1AE4F0350073031F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				765004601AE4F0350073031F /* CTSCoreProtocol.h */,
+				765004611AE4F0350073031F /* CTSOauthManager.h */,
+				765004621AE4F0350073031F /* CTSOauthManager.m */,
+				765004631AE4F0350073031F /* CTSObject.h */,
+				765004641AE4F0350073031F /* CTSObject.m */,
+				765004651AE4F0350073031F /* CTSUtility.h */,
+				765004661AE4F0350073031F /* CTSUtility.m */,
+				765004671AE4F0350073031F /* OauthStatus.h */,
+				765004681AE4F0350073031F /* OauthStatus.m */,
+				765004691AE4F0350073031F /* RestLayerConstants.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7650046A1AE4F0350073031F /* CTSRestKitCode */ = {
+			isa = PBXGroup;
+			children = (
+				7650046B1AE4F0350073031F /* CTSRestCore.h */,
+				7650046C1AE4F0350073031F /* CTSRestCore.m */,
+				7650046D1AE4F0350073031F /* CTSRestCoreConstants.h */,
+				7650046E1AE4F0350073031F /* CTSRestCoreRequest.h */,
+				7650046F1AE4F0350073031F /* CTSRestCoreRequest.m */,
+				765004701AE4F0350073031F /* CTSRestCoreResponse.h */,
+				765004711AE4F0350073031F /* CTSRestCoreResponse.m */,
+				765004721AE4F0350073031F /* CTSRestObject.h */,
+				765004731AE4F0350073031F /* CTSRestObject.m */,
+				765004741AE4F0350073031F /* CTSRestPluginBase.h */,
+				765004751AE4F0350073031F /* CTSRestPluginBase.m */,
+			);
+			path = CTSRestKitCode;
+			sourceTree = "<group>";
+		};
+		765004761AE4F0350073031F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				765004771AE4F0350073031F /* CreditCard-Validator.h */,
+				765004781AE4F0350073031F /* CreditCard-Validator.m */,
+				765004791AE4F0350073031F /* JSONModel */,
+				765004951AE4F0350073031F /* UserLogging.h */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		765004791AE4F0350073031F /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				7650047A1AE4F0350073031F /* JSONModel */,
+				765004851AE4F0350073031F /* JSONModelCategories */,
+				765004881AE4F0350073031F /* JSONModelLib.h */,
+				765004891AE4F0350073031F /* JSONModelNetworking */,
+				765004901AE4F0350073031F /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		7650047A1AE4F0350073031F /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				7650047B1AE4F0350073031F /* JSONModel+CoreData.h */,
+				7650047C1AE4F0350073031F /* JSONModel+CoreData.m */,
+				7650047D1AE4F0350073031F /* JSONModel.h */,
+				7650047E1AE4F0350073031F /* JSONModel.m */,
+				7650047F1AE4F0350073031F /* JSONModelArray.h */,
+				765004801AE4F0350073031F /* JSONModelArray.m */,
+				765004811AE4F0350073031F /* JSONModelClassProperty.h */,
+				765004821AE4F0350073031F /* JSONModelClassProperty.m */,
+				765004831AE4F0350073031F /* JSONModelError.h */,
+				765004841AE4F0350073031F /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		765004851AE4F0350073031F /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				765004861AE4F0350073031F /* NSArray+JSONModel.h */,
+				765004871AE4F0350073031F /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		765004891AE4F0350073031F /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7650048A1AE4F0350073031F /* JSONAPI.h */,
+				7650048B1AE4F0350073031F /* JSONAPI.m */,
+				7650048C1AE4F0350073031F /* JSONHTTPClient.h */,
+				7650048D1AE4F0350073031F /* JSONHTTPClient.m */,
+				7650048E1AE4F0350073031F /* JSONModel+networking.h */,
+				7650048F1AE4F0350073031F /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		765004901AE4F0350073031F /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				765004911AE4F0350073031F /* JSONKeyMapper.h */,
+				765004921AE4F0350073031F /* JSONKeyMapper.m */,
+				765004931AE4F0350073031F /* JSONValueTransformer.h */,
+				765004941AE4F0350073031F /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		765004981AE4F0350073031F /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				765004991AE4F0350073031F /* CTSPaymentLayer.h */,
+				7650049A1AE4F0350073031F /* CTSPaymentLayer.m */,
+				7650049B1AE4F0350073031F /* CTSPaymentLayerConstants.h */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		7650049C1AE4F0350073031F /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				7650049D1AE4F0350073031F /* CTSProfileLayer.h */,
+				7650049E1AE4F0350073031F /* CTSProfileLayer.m */,
+				7650049F1AE4F0350073031F /* CTSProfileLayerConstants.h */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		76CF00F21AE767AE0029A0B1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				76CF00F31AE767AE0029A0B1 /* buttonbackground.png */,
+				76CF00F41AE767AE0029A0B1 /* Card icon */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		76CF00F41AE767AE0029A0B1 /* Card icon */ = {
+			isa = PBXGroup;
+			children = (
+				76CF00F51AE767AE0029A0B1 /* amex.png */,
+				76CF00F61AE767AE0029A0B1 /* amex@2x.png */,
+				76CF00F71AE767AE0029A0B1 /* AXISlogo.png */,
+				76CF00F81AE767AE0029A0B1 /* AXISlogo@2x.png */,
+				76CF00F91AE767AE0029A0B1 /* discover.png */,
+				76CF00FA1AE767AE0029A0B1 /* discover@2x.png */,
+				76CF00FB1AE767AE0029A0B1 /* maestro.png */,
+				76CF00FC1AE767AE0029A0B1 /* maestro@2x.png */,
+				76CF00FD1AE767AE0029A0B1 /* mastercard.png */,
+				76CF00FE1AE767AE0029A0B1 /* mastercard@2x.png */,
+				76CF00FF1AE767AE0029A0B1 /* rupay.png */,
+				76CF01001AE767AE0029A0B1 /* rupay@2x.png */,
+				76CF01011AE767AE0029A0B1 /* visa.png */,
+				76CF01021AE767AE0029A0B1 /* visa@2x.png */,
+			);
+			path = "Card icon";
+			sourceTree = "<group>";
+		};
+		76CF01211AE7C1790029A0B1 /* UIUtility */ = {
+			isa = PBXGroup;
+			children = (
+				76CF01221AE7C1790029A0B1 /* UIUtility.h */,
+				76CF01231AE7C1790029A0B1 /* UIUtility.m */,
+			);
+			path = UIUtility;
+			sourceTree = "<group>";
+		};
+		76CF01261AE7D9710029A0B1 /* TextFieldValidator */ = {
+			isa = PBXGroup;
+			children = (
+				76CF01271AE7D9710029A0B1 /* error@2x.png */,
+				76CF01281AE7D9710029A0B1 /* TextFieldValidator.h */,
+				76CF01291AE7D9710029A0B1 /* TextFieldValidator.m */,
+			);
+			path = TextFieldValidator;
+			sourceTree = "<group>";
+		};
 		CC4933DB1AC914D000E4DC16 = {
 			isa = PBXGroup;
 			children = (
+				76CF01261AE7D9710029A0B1 /* TextFieldValidator */,
+				76CF01211AE7C1790029A0B1 /* UIUtility */,
+				76CF00F21AE767AE0029A0B1 /* Images */,
+				765004011AE4F0340073031F /* CitrusDevKit */,
 				CC9877391AD2651C001AB48C /* ocraextended.ttf */,
 				CCE41D6D1AD14BE400485F5B /* .gitignore */,
 				CCE41D6F1AD14C3400485F5B /* Utility */,
@@ -186,6 +877,7 @@
 		CC4934101AC916EF00E4DC16 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				7650051E1AE50D270073031F /* TestParams.h */,
 				CC4933EB1AC914D100E4DC16 /* AppDelegate.h */,
 				CC4933EC1AC914D100E4DC16 /* AppDelegate.m */,
 			);
@@ -350,6 +1042,7 @@
 				TargetAttributes = {
 					CC4933E31AC914D000E4DC16 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = BF75J23QJ2;
 					};
 					CC4933FC1AC914D100E4DC16 = {
 						CreatedOnToolsVersion = 6.2;
@@ -381,11 +1074,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CF011B1AE767AE0029A0B1 /* rupay@2x.png in Resources */,
+				76CF01171AE767AE0029A0B1 /* mastercard@2x.png in Resources */,
 				CCE41D6E1AD14BE400485F5B /* .gitignore in Resources */,
+				76CF01071AE767AE0029A0B1 /* amex@2x.png in Resources */,
+				76CF01191AE767AE0029A0B1 /* rupay.png in Resources */,
+				76CF011F1AE767AE0029A0B1 /* visa@2x.png in Resources */,
+				76CF012A1AE7D9710029A0B1 /* error@2x.png in Resources */,
 				CC4933F31AC914D100E4DC16 /* Main.storyboard in Resources */,
+				76CF011D1AE767AE0029A0B1 /* visa.png in Resources */,
 				CC98773A1AD2651C001AB48C /* ocraextended.ttf in Resources */,
+				76CF01111AE767AE0029A0B1 /* maestro.png in Resources */,
+				76CF010F1AE767AE0029A0B1 /* discover@2x.png in Resources */,
+				76CF01151AE767AE0029A0B1 /* mastercard.png in Resources */,
 				CC4933F81AC914D100E4DC16 /* LaunchScreen.xib in Resources */,
+				76CF010D1AE767AE0029A0B1 /* discover.png in Resources */,
 				CC4933F51AC914D100E4DC16 /* Images.xcassets in Resources */,
+				76CF01051AE767AE0029A0B1 /* amex.png in Resources */,
+				76CF01131AE767AE0029A0B1 /* maestro@2x.png in Resources */,
+				76CF01031AE767AE0029A0B1 /* buttonbackground.png in Resources */,
+				76CF010B1AE767AE0029A0B1 /* AXISlogo@2x.png in Resources */,
+				76CF01091AE767AE0029A0B1 /* AXISlogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +1102,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CF01181AE767AE0029A0B1 /* mastercard@2x.png in Resources */,
+				76CF011C1AE767AE0029A0B1 /* rupay@2x.png in Resources */,
+				76CF01041AE767AE0029A0B1 /* buttonbackground.png in Resources */,
+				76CF012B1AE7D9710029A0B1 /* error@2x.png in Resources */,
+				76CF010E1AE767AE0029A0B1 /* discover.png in Resources */,
+				76CF01101AE767AE0029A0B1 /* discover@2x.png in Resources */,
+				76CF01061AE767AE0029A0B1 /* amex.png in Resources */,
+				76CF01081AE767AE0029A0B1 /* amex@2x.png in Resources */,
+				76CF01141AE767AE0029A0B1 /* maestro@2x.png in Resources */,
+				76CF01161AE767AE0029A0B1 /* mastercard.png in Resources */,
+				76CF011A1AE767AE0029A0B1 /* rupay.png in Resources */,
+				76CF01201AE767AE0029A0B1 /* visa@2x.png in Resources */,
+				76CF011E1AE767AE0029A0B1 /* visa.png in Resources */,
+				76CF010C1AE767AE0029A0B1 /* AXISlogo@2x.png in Resources */,
+				76CF010A1AE767AE0029A0B1 /* AXISlogo.png in Resources */,
+				76CF01121AE767AE0029A0B1 /* maestro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,24 +1128,89 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765004BC1AE4F0350073031F /* CTSElectronicCardUpdate.m in Sources */,
+				7650050C1AE4F0350073031F /* NSArray+JSONModel.m in Sources */,
+				765004A21AE4F0350073031F /* CTSSignupState.m in Sources */,
+				7650050A1AE4F0350073031F /* JSONModelError.m in Sources */,
+				7650051C1AE4F0350073031F /* CTSProfileLayer.m in Sources */,
+				765005141AE4F0350073031F /* JSONKeyMapper.m in Sources */,
 				CC9877371AD242DA001AB48C /* BaseViewController.m in Sources */,
 				CC49342E1AC935C900E4DC16 /* CardView.m in Sources */,
+				765004F01AE4F0350073031F /* CTSObject.m in Sources */,
+				765004FC1AE4F0350073031F /* CTSRestObject.m in Sources */,
+				765004D61AE4F0350073031F /* CTSNetbankingOption.m in Sources */,
 				CC49341E1AC9173200E4DC16 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				765004C61AE4F0350073031F /* CTSTokenizedPayment.m in Sources */,
+				765004AC1AE4F0350073031F /* CTSPaymentRequest.m in Sources */,
+				765004F21AE4F0350073031F /* CTSUtility.m in Sources */,
 				CC4934451AC988FA00E4DC16 /* AppUtility.m in Sources */,
 				CC4933F01AC914D100E4DC16 /* ViewController.m in Sources */,
+				765004E01AE4F0350073031F /* CTSGetBalanceRes.m in Sources */,
+				7650050E1AE4F0350073031F /* JSONAPI.m in Sources */,
+				765004AA1AE4F0350073031F /* CTSPaymentNetbankingRequest.m in Sources */,
+				765004D41AE4F0350073031F /* CTSDebitCardOption.m in Sources */,
+				765004E41AE4F0350073031F /* CTSProfilePaymentRes.m in Sources */,
+				765004D81AE4F0350073031F /* CTSPaymentRes.m in Sources */,
 				CC4934311AC9596800E4DC16 /* UIFont+UserDefineFont.m in Sources */,
+				765004CA1AE4F0350073031F /* CTSOauthTokenRes.m in Sources */,
+				765004F81AE4F0350073031F /* CTSRestCoreRequest.m in Sources */,
+				765005061AE4F0350073031F /* JSONModelArray.m in Sources */,
+				765004C01AE4F0350073031F /* CTSPaymentDetailUpdate.m in Sources */,
+				765004CE1AE4F0350073031F /* CitrusCashRes.m in Sources */,
+				765004E61AE4F0350073031F /* CTSProfilePrepaidRes.m in Sources */,
+				765004FE1AE4F0350073031F /* CTSRestPluginBase.m in Sources */,
+				765004B21AE4F0350073031F /* CTSTokenizedCardPayment.m in Sources */,
+				7650051A1AE4F0350073031F /* CTSPaymentLayer.m in Sources */,
 				CC49343F1AC982AB00E4DC16 /* CitrusCashView.m in Sources */,
+				765004D21AE4F0350073031F /* CTSCreditCardOption.m in Sources */,
 				CC4934351AC96C6B00E4DC16 /* ResultController.m in Sources */,
+				765004B81AE4F0350073031F /* CTSUserDetails.m in Sources */,
+				765004BE1AE4F0350073031F /* CTSNetBankingUpdate.m in Sources */,
 				CC49340F1AC9160600E4DC16 /* AddCardController.m in Sources */,
+				765004CC1AE4F0350073031F /* CTSSignUpRes.m in Sources */,
+				765004A01AE4F0350073031F /* CTSRestError.m in Sources */,
+				765004AE1AE4F0350073031F /* CTSPaymentToken.m in Sources */,
 				CC4933ED1AC914D100E4DC16 /* AppDelegate.m in Sources */,
+				765004DC1AE4F0350073031F /* CTSPgSettings.m in Sources */,
+				76CF01241AE7C1790029A0B1 /* UIUtility.m in Sources */,
+				765004A41AE4F0350073031F /* CTSAmount.m in Sources */,
+				765005181AE4F0350073031F /* NSObject+logProperties.m in Sources */,
+				765005161AE4F0350073031F /* JSONValueTransformer.m in Sources */,
+				765005101AE4F0350073031F /* JSONHTTPClient.m in Sources */,
+				765004B01AE4F0350073031F /* CTSPaymentUpdate.m in Sources */,
+				765004EE1AE4F0350073031F /* CTSOauthManager.m in Sources */,
+				765004EC1AE4F0350073031F /* CTSError.m in Sources */,
+				765004E81AE4F0350073031F /* GetProfileRes.m in Sources */,
+				765004A61AE4F0350073031F /* CTSGuestCheckout.m in Sources */,
+				765004DA1AE4F0350073031F /* CTSPaymentTransactionRes.m in Sources */,
+				765005001AE4F0350073031F /* CreditCard-Validator.m in Sources */,
 				CC4934251AC92D5B00E4DC16 /* UIButton+BarButton.m in Sources */,
+				765004C81AE4F0350073031F /* CTSLinkUserRes.m in Sources */,
+				76CF012C1AE7D9710029A0B1 /* TextFieldValidator.m in Sources */,
 				CC49343C1AC9818000E4DC16 /* HomeViewController.m in Sources */,
 				CC4934421AC9882B00E4DC16 /* CustomTableView.m in Sources */,
+				765004F41AE4F0350073031F /* OauthStatus.m in Sources */,
+				765005081AE4F0350073031F /* JSONModelClassProperty.m in Sources */,
+				765005041AE4F0350073031F /* JSONModel.m in Sources */,
 				CC49342A1AC92FCD00E4DC16 /* SepratorLine.m in Sources */,
+				765004D01AE4F0350073031F /* CTSBill.m in Sources */,
 				CC9877331AD23D26001AB48C /* EnterCVVViewController.m in Sources */,
+				765004C41AE4F0350073031F /* CTSPrepaidUpdate.m in Sources */,
 				CC49341C1AC9173200E4DC16 /* ALView+PureLayout.m in Sources */,
+				765004C21AE4F0350073031F /* CTSPaymentOption.m in Sources */,
+				765004B61AE4F0350073031F /* CTSUserAddress.m in Sources */,
+				765004DE1AE4F0350073031F /* CTSPrepaidBill.m in Sources */,
+				765004FA1AE4F0350073031F /* CTSRestCoreResponse.m in Sources */,
+				765005021AE4F0350073031F /* JSONModel+CoreData.m in Sources */,
 				CC49341D1AC9173200E4DC16 /* NSArray+PureLayout.m in Sources */,
 				CC4934221AC917E500E4DC16 /* CCListViewControllers.m in Sources */,
+				765004F61AE4F0350073031F /* CTSRestCore.m in Sources */,
+				765004EA1AE4F0350073031F /* CTSAuthLayer.m in Sources */,
+				765004A81AE4F0350073031F /* CTSPaymentMode.m in Sources */,
+				765005121AE4F0350073031F /* JSONModel+networking.m in Sources */,
+				765004B41AE4F0350073031F /* CTSTokenizedPaymentToken.m in Sources */,
+				765004BA1AE4F0350073031F /* CTSContactUpdate.m in Sources */,
+				765004E21AE4F0350073031F /* CTSProfileContactRes.m in Sources */,
 				CC4933EA1AC914D100E4DC16 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,7 +1219,72 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765004F51AE4F0350073031F /* OauthStatus.m in Sources */,
+				765004A31AE4F0350073031F /* CTSSignupState.m in Sources */,
+				765004CD1AE4F0350073031F /* CTSSignUpRes.m in Sources */,
+				765004A71AE4F0350073031F /* CTSGuestCheckout.m in Sources */,
+				765004C51AE4F0350073031F /* CTSPrepaidUpdate.m in Sources */,
+				765004C31AE4F0350073031F /* CTSPaymentOption.m in Sources */,
+				765004AB1AE4F0350073031F /* CTSPaymentNetbankingRequest.m in Sources */,
+				765005131AE4F0350073031F /* JSONModel+networking.m in Sources */,
+				765004B31AE4F0350073031F /* CTSTokenizedCardPayment.m in Sources */,
+				7650050B1AE4F0350073031F /* JSONModelError.m in Sources */,
+				765004B71AE4F0350073031F /* CTSUserAddress.m in Sources */,
+				765004ED1AE4F0350073031F /* CTSError.m in Sources */,
+				765004F31AE4F0350073031F /* CTSUtility.m in Sources */,
+				765004A51AE4F0350073031F /* CTSAmount.m in Sources */,
+				765004EF1AE4F0350073031F /* CTSOauthManager.m in Sources */,
+				765004BD1AE4F0350073031F /* CTSElectronicCardUpdate.m in Sources */,
+				765005191AE4F0350073031F /* NSObject+logProperties.m in Sources */,
+				765004FF1AE4F0350073031F /* CTSRestPluginBase.m in Sources */,
+				7650051D1AE4F0350073031F /* CTSProfileLayer.m in Sources */,
+				765004BB1AE4F0350073031F /* CTSContactUpdate.m in Sources */,
+				765004AD1AE4F0350073031F /* CTSPaymentRequest.m in Sources */,
+				765004CB1AE4F0350073031F /* CTSOauthTokenRes.m in Sources */,
+				765005051AE4F0350073031F /* JSONModel.m in Sources */,
+				765004DF1AE4F0350073031F /* CTSPrepaidBill.m in Sources */,
+				765004DB1AE4F0350073031F /* CTSPaymentTransactionRes.m in Sources */,
+				765005171AE4F0350073031F /* JSONValueTransformer.m in Sources */,
+				765005071AE4F0350073031F /* JSONModelArray.m in Sources */,
+				765004A11AE4F0350073031F /* CTSRestError.m in Sources */,
+				765004D11AE4F0350073031F /* CTSBill.m in Sources */,
+				765004B11AE4F0350073031F /* CTSPaymentUpdate.m in Sources */,
+				765004D31AE4F0350073031F /* CTSCreditCardOption.m in Sources */,
+				765004B51AE4F0350073031F /* CTSTokenizedPaymentToken.m in Sources */,
+				76CF01251AE7C1790029A0B1 /* UIUtility.m in Sources */,
 				CC4934041AC914D100E4DC16 /* CitrusProjectTests.m in Sources */,
+				765005011AE4F0350073031F /* CreditCard-Validator.m in Sources */,
+				765004E11AE4F0350073031F /* CTSGetBalanceRes.m in Sources */,
+				765005031AE4F0350073031F /* JSONModel+CoreData.m in Sources */,
+				765004C11AE4F0350073031F /* CTSPaymentDetailUpdate.m in Sources */,
+				765004F91AE4F0350073031F /* CTSRestCoreRequest.m in Sources */,
+				765004E71AE4F0350073031F /* CTSProfilePrepaidRes.m in Sources */,
+				765004AF1AE4F0350073031F /* CTSPaymentToken.m in Sources */,
+				765004CF1AE4F0350073031F /* CitrusCashRes.m in Sources */,
+				765004D91AE4F0350073031F /* CTSPaymentRes.m in Sources */,
+				765005091AE4F0350073031F /* JSONModelClassProperty.m in Sources */,
+				765004FB1AE4F0350073031F /* CTSRestCoreResponse.m in Sources */,
+				765005151AE4F0350073031F /* JSONKeyMapper.m in Sources */,
+				7650050D1AE4F0350073031F /* NSArray+JSONModel.m in Sources */,
+				765004D71AE4F0350073031F /* CTSNetbankingOption.m in Sources */,
+				7650050F1AE4F0350073031F /* JSONAPI.m in Sources */,
+				765004C91AE4F0350073031F /* CTSLinkUserRes.m in Sources */,
+				765004BF1AE4F0350073031F /* CTSNetBankingUpdate.m in Sources */,
+				7650051B1AE4F0350073031F /* CTSPaymentLayer.m in Sources */,
+				76CF012D1AE7D9710029A0B1 /* TextFieldValidator.m in Sources */,
+				765004B91AE4F0350073031F /* CTSUserDetails.m in Sources */,
+				765004F71AE4F0350073031F /* CTSRestCore.m in Sources */,
+				765004E51AE4F0350073031F /* CTSProfilePaymentRes.m in Sources */,
+				765004DD1AE4F0350073031F /* CTSPgSettings.m in Sources */,
+				765004D51AE4F0350073031F /* CTSDebitCardOption.m in Sources */,
+				765004EB1AE4F0350073031F /* CTSAuthLayer.m in Sources */,
+				765004F11AE4F0350073031F /* CTSObject.m in Sources */,
+				765004E91AE4F0350073031F /* GetProfileRes.m in Sources */,
+				765004C71AE4F0350073031F /* CTSTokenizedPayment.m in Sources */,
+				765005111AE4F0350073031F /* JSONHTTPClient.m in Sources */,
+				765004FD1AE4F0350073031F /* CTSRestObject.m in Sources */,
+				765004E31AE4F0350073031F /* CTSProfileContactRes.m in Sources */,
+				765004A91AE4F0350073031F /* CTSPaymentMode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +1400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CitrusProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -556,6 +1412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CitrusProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
