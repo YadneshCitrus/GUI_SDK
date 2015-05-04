@@ -8,13 +8,14 @@
 
 #import "ResultController.h"
 #import "CardView.h"
+#import "AppUtility.h"
 
 @interface ResultController ()
 
 @end
 
 @implementation ResultController
-@synthesize resultIdValueLbl,messageValueLbl;
+@synthesize resultIdValueLbl,messageValueLbl, delegate;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -33,7 +34,6 @@
         }
         [self addResultView:isSuccessFul];
         [self addFooterView:isSuccessFul];
-        [self addBarButton];
     }
     return self;
 }
@@ -119,6 +119,8 @@
 }
 -(void)addFooterView:(BOOL)isSuccessFul{
     if (isSuccessFul) {
+        [self addBarButton];
+
         UILabel *footerlbl = [[UILabel alloc]init];
         footerlbl.text = @" Thanks! We'd love to see you again :)";
         footerlbl.numberOfLines = 0;
@@ -133,9 +135,78 @@
     }
     else{
         //remaining to show action sheet
+        [self addView];
        
     }
 }
+
+
+-(void)addView{
+    
+    NSArray *viewStrips = @[];
+    
+    viewStrips = [self getRetryView];
+
+     cardDetailView = [AppUtility addCardViewDetailsError:viewStrips];
+    [self.view addSubview:cardDetailView];
+    
+    [cardDetailView autoPinEdgeToSuperviewEdge:ALEdgeLeading];
+    [cardDetailView autoPinEdgeToSuperviewEdge:ALEdgeTrailing];
+    [cardDetailView autoPinEdgeToSuperviewEdge:ALEdgeBottom];
+    [cardDetailView autoSetDimension:ALDimensionHeight toSize:(60)*[viewStrips count]];
+}
+
+-(NSArray*)getRetryView{
+    NSMutableArray *viewsArray = [[NSMutableArray alloc]init];
+    for (int i = 0; i<2; i++) {
+        
+        UIView *background = [[UIView alloc]init];
+        
+        UILabel *lbl = [[UILabel alloc]init];
+        lbl.font = [UIFont customLightFontWithSize:20];
+        lbl.textAlignment = NSTextAlignmentCenter;
+        UITapGestureRecognizer *tapGestureRecognizer;
+        
+        if (i==0) {
+            [lbl setTextColor:[UIColor colorWithRed:(245/255.f) green:(146/255.f) blue:(28/255.f) alpha:1.0f]];
+            lbl.text = @"Retry Transction" ;
+            tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(retryTransction)];
+        }else if (i==1){
+            lbl.text = @"Dismiss" ;
+            tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(Dismiss)];
+        }
+        
+        [background addSubview:lbl];
+        [lbl autoPinEdgeToSuperviewEdge:ALEdgeLeading withInset:15];
+        [lbl autoPinEdgeToSuperviewEdge:ALEdgeTrailing];
+        [lbl autoPinEdgeToSuperviewEdge:ALEdgeTop];
+        [lbl autoPinEdgeToSuperviewEdge:ALEdgeBottom];
+        [viewsArray addObject:background];
+        
+        lbl.userInteractionEnabled = YES;
+        tapGestureRecognizer.numberOfTapsRequired = 1;
+        [lbl addGestureRecognizer:tapGestureRecognizer];
+    }
+    return viewsArray;
+}
+
+
+//
+-(void)retryTransction{
+    NSLog(@"retryTransction Tapped");
+    
+    [self.navigationController dismissViewControllerAnimated:YES completion:^{
+        [self.delegate retryTransction];
+    }];
+
+}
+
+//
+-(void)Dismiss{
+    NSLog(@"Dismiss Tapped");
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
+
 -(NSArray*)getDisplayTextsArrayForResultType:(BOOL)isSuccessful{
     if(isSuccessful){
         return @[@"Check",@"Payment Successful!",@"TRANSACTION ID",@"AMOUNT PAID"];

@@ -22,6 +22,9 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define GREEN_COLOR 0x77C83E
 #define GRAY_COLOR 0x414A5A
 
-#define DEBIT_CREDIT_CARD @"CREDIT/DEBITCARD"
+#define DEBIT_CREDIT_CARD @"CREDIT/DEBIT CARD"
+#define SAVE_CARD @"SAVED CARDS"
+#define NET_BANKING @"NET BANKING"
+
 #define CARD_FONT_NAME  @"OCRAExtended"
 #endif

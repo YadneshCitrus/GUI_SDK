@@ -20,26 +20,46 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    /*for (NSString* family in [UIFont familyNames])
-    {
-        NSLog(@"%@", family);
-        
-        for (NSString* name in [UIFont fontNamesForFamilyName: family])
-        {
-            NSLog(@"  %@", name);
-        }
-    }*/
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.view.backgroundColor = [UIColor whiteColor];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    UIActionSheet *popup = [[UIActionSheet alloc] initWithTitle:@"Select Environment option:" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:
+                            @"Using SandBox",
+                            @"Using Production",
+                            nil];
+    popup.tag = 1;
+    [popup showInView:[UIApplication sharedApplication].keyWindow];
 }
+
+
+- (void)actionSheet:(UIActionSheet *)actionSheet
+clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == actionSheet.cancelButtonIndex) { return; }
+    switch (buttonIndex) {
+        case 0:
+        {
+            dispatch_async(dispatch_get_main_queue(), ^(){
+                HomeViewController *addCard = [[HomeViewController alloc]initWithNibName:nil bundle:nil];
+                [self.navigationController pushViewController:addCard animated:YES];
+            });
+            break;
+        }
+        case 1:
+        {
+            dispatch_async(dispatch_get_main_queue(), ^(){
+                HomeViewController *addCard = [[HomeViewController alloc]initWithNibName:nil bundle:nil];
+                [self.navigationController pushViewController:addCard animated:YES];
+            });
+            break;
+        }
+    }
+}
+
+
 
 - (NSArray *)demoTitles
 {

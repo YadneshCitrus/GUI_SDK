@@ -8,7 +8,22 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
-@interface ResultController : BaseViewController
+
+
+@protocol ResultControllerProtocol
+
+@optional
+- (void)retryTransction;
+@end
+
+@class CardView;
+
+@interface ResultController : BaseViewController{
+    CardView *cardDetailView;
+    
+}
+
+@property (nonatomic,retain) id<ResultControllerProtocol> delegate;
 
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
         isSuccessFul:(BOOL)isSuccessFul;

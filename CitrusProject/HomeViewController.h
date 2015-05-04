@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
+#import "CitrusCashView.h"
+#import "CustomTableView.h"
+#import "ResultController.h"
 
-@interface HomeViewController : BaseViewController
+
+@interface HomeViewController : BaseViewController <CitrusCashViewProtocol, CustomTableViewProtocol, ResultControllerProtocol>{
+    UILabel *balanceLbl;
+    BOOL isShowBalance;
+}
 
 @end

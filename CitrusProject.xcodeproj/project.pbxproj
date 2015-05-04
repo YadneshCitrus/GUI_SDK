@@ -7,6 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760444911AEA45FC0033CA38 /* Bank-AXIS.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604447F1AEA45FC0033CA38 /* Bank-AXIS.png */; };
+		760444921AEA45FC0033CA38 /* Bank-AXIS.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604447F1AEA45FC0033CA38 /* Bank-AXIS.png */; };
+		760444931AEA45FC0033CA38 /* Bank-AXIS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444801AEA45FC0033CA38 /* Bank-AXIS@2x.png */; };
+		760444941AEA45FC0033CA38 /* Bank-AXIS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444801AEA45FC0033CA38 /* Bank-AXIS@2x.png */; };
+		760444951AEA45FC0033CA38 /* Bank-AXIS@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444811AEA45FC0033CA38 /* Bank-AXIS@3x.png */; };
+		760444961AEA45FC0033CA38 /* Bank-AXIS@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444811AEA45FC0033CA38 /* Bank-AXIS@3x.png */; };
+		760444971AEA45FC0033CA38 /* Bank-Citi.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444821AEA45FC0033CA38 /* Bank-Citi.png */; };
+		760444981AEA45FC0033CA38 /* Bank-Citi.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444821AEA45FC0033CA38 /* Bank-Citi.png */; };
+		760444991AEA45FC0033CA38 /* Bank-Citi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444831AEA45FC0033CA38 /* Bank-Citi@2x.png */; };
+		7604449A1AEA45FC0033CA38 /* Bank-Citi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444831AEA45FC0033CA38 /* Bank-Citi@2x.png */; };
+		7604449B1AEA45FC0033CA38 /* Bank-Citi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444841AEA45FC0033CA38 /* Bank-Citi@3x.png */; };
+		7604449C1AEA45FC0033CA38 /* Bank-Citi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444841AEA45FC0033CA38 /* Bank-Citi@3x.png */; };
+		7604449D1AEA45FC0033CA38 /* Bank-HDFC.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444851AEA45FC0033CA38 /* Bank-HDFC.png */; };
+		7604449E1AEA45FC0033CA38 /* Bank-HDFC.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444851AEA45FC0033CA38 /* Bank-HDFC.png */; };
+		7604449F1AEA45FC0033CA38 /* Bank-HDFC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444861AEA45FC0033CA38 /* Bank-HDFC@2x.png */; };
+		760444A01AEA45FC0033CA38 /* Bank-HDFC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444861AEA45FC0033CA38 /* Bank-HDFC@2x.png */; };
+		760444A11AEA45FC0033CA38 /* Bank-HDFC@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444871AEA45FC0033CA38 /* Bank-HDFC@3x.png */; };
+		760444A21AEA45FC0033CA38 /* Bank-HDFC@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444871AEA45FC0033CA38 /* Bank-HDFC@3x.png */; };
+		760444A31AEA45FC0033CA38 /* Bank-ICICI.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444881AEA45FC0033CA38 /* Bank-ICICI.png */; };
+		760444A41AEA45FC0033CA38 /* Bank-ICICI.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444881AEA45FC0033CA38 /* Bank-ICICI.png */; };
+		760444A51AEA45FC0033CA38 /* Bank-ICICI@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444891AEA45FC0033CA38 /* Bank-ICICI@2x.png */; };
+		760444A61AEA45FC0033CA38 /* Bank-ICICI@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444891AEA45FC0033CA38 /* Bank-ICICI@2x.png */; };
+		760444A71AEA45FC0033CA38 /* Bank-ICICI@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448A1AEA45FC0033CA38 /* Bank-ICICI@3x.png */; };
+		760444A81AEA45FC0033CA38 /* Bank-ICICI@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448A1AEA45FC0033CA38 /* Bank-ICICI@3x.png */; };
+		760444A91AEA45FC0033CA38 /* Bank-Kotak.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448B1AEA45FC0033CA38 /* Bank-Kotak.png */; };
+		760444AA1AEA45FC0033CA38 /* Bank-Kotak.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448B1AEA45FC0033CA38 /* Bank-Kotak.png */; };
+		760444AB1AEA45FC0033CA38 /* Bank-Kotak@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448C1AEA45FC0033CA38 /* Bank-Kotak@2x.png */; };
+		760444AC1AEA45FC0033CA38 /* Bank-Kotak@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448C1AEA45FC0033CA38 /* Bank-Kotak@2x.png */; };
+		760444AD1AEA45FC0033CA38 /* Bank-Kotak@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448D1AEA45FC0033CA38 /* Bank-Kotak@3x.png */; };
+		760444AE1AEA45FC0033CA38 /* Bank-Kotak@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448D1AEA45FC0033CA38 /* Bank-Kotak@3x.png */; };
+		760444AF1AEA45FC0033CA38 /* Bank-SBI.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448E1AEA45FC0033CA38 /* Bank-SBI.png */; };
+		760444B01AEA45FC0033CA38 /* Bank-SBI.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448E1AEA45FC0033CA38 /* Bank-SBI.png */; };
+		760444B11AEA45FC0033CA38 /* Bank-SBI@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448F1AEA45FC0033CA38 /* Bank-SBI@2x.png */; };
+		760444B21AEA45FC0033CA38 /* Bank-SBI@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604448F1AEA45FC0033CA38 /* Bank-SBI@2x.png */; };
+		760444B31AEA45FC0033CA38 /* Bank-SBI@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444901AEA45FC0033CA38 /* Bank-SBI@3x.png */; };
+		760444B41AEA45FC0033CA38 /* Bank-SBI@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760444901AEA45FC0033CA38 /* Bank-SBI@3x.png */; };
+		760444B81AEE73B90033CA38 /* WebGatewayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760444B71AEE73B90033CA38 /* WebGatewayViewController.m */; };
+		760444B91AEE73B90033CA38 /* WebGatewayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760444B71AEE73B90033CA38 /* WebGatewayViewController.m */; };
+		76279FCD1AF79E9100C15C13 /* amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FBB1AF79E9100C15C13 /* amex.png */; };
+		76279FCE1AF79E9100C15C13 /* amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FBB1AF79E9100C15C13 /* amex.png */; };
+		76279FCF1AF79E9100C15C13 /* amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FBC1AF79E9100C15C13 /* amex@2x.png */; };
+		76279FD01AF79E9100C15C13 /* amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FBC1AF79E9100C15C13 /* amex@2x.png */; };
+		76279FD11AF79E9100C15C13 /* amex@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FBD1AF79E9100C15C13 /* amex@3x.png */; };
+		76279FD21AF79E9100C15C13 /* amex@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FBD1AF79E9100C15C13 /* amex@3x.png */; };
+		76279FD31AF79E9100C15C13 /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FBE1AF79E9100C15C13 /* discover.png */; };
+		76279FD41AF79E9100C15C13 /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FBE1AF79E9100C15C13 /* discover.png */; };
+		76279FD51AF79E9100C15C13 /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FBF1AF79E9100C15C13 /* discover@2x.png */; };
+		76279FD61AF79E9100C15C13 /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FBF1AF79E9100C15C13 /* discover@2x.png */; };
+		76279FD71AF79E9100C15C13 /* discover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC01AF79E9100C15C13 /* discover@3x.png */; };
+		76279FD81AF79E9100C15C13 /* discover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC01AF79E9100C15C13 /* discover@3x.png */; };
+		76279FD91AF79E9100C15C13 /* maestro.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC11AF79E9100C15C13 /* maestro.png */; };
+		76279FDA1AF79E9100C15C13 /* maestro.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC11AF79E9100C15C13 /* maestro.png */; };
+		76279FDB1AF79E9100C15C13 /* maestro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC21AF79E9100C15C13 /* maestro@2x.png */; };
+		76279FDC1AF79E9100C15C13 /* maestro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC21AF79E9100C15C13 /* maestro@2x.png */; };
+		76279FDD1AF79E9100C15C13 /* maestro@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC31AF79E9100C15C13 /* maestro@3x.png */; };
+		76279FDE1AF79E9100C15C13 /* maestro@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC31AF79E9100C15C13 /* maestro@3x.png */; };
+		76279FDF1AF79E9100C15C13 /* mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC41AF79E9100C15C13 /* mastercard.png */; };
+		76279FE01AF79E9100C15C13 /* mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC41AF79E9100C15C13 /* mastercard.png */; };
+		76279FE11AF79E9100C15C13 /* mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC51AF79E9100C15C13 /* mastercard@2x.png */; };
+		76279FE21AF79E9100C15C13 /* mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC51AF79E9100C15C13 /* mastercard@2x.png */; };
+		76279FE31AF79E9100C15C13 /* mastercard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC61AF79E9100C15C13 /* mastercard@3x.png */; };
+		76279FE41AF79E9100C15C13 /* mastercard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC61AF79E9100C15C13 /* mastercard@3x.png */; };
+		76279FE51AF79E9100C15C13 /* rupay.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC71AF79E9100C15C13 /* rupay.png */; };
+		76279FE61AF79E9100C15C13 /* rupay.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC71AF79E9100C15C13 /* rupay.png */; };
+		76279FE71AF79E9100C15C13 /* rupay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC81AF79E9100C15C13 /* rupay@2x.png */; };
+		76279FE81AF79E9100C15C13 /* rupay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC81AF79E9100C15C13 /* rupay@2x.png */; };
+		76279FE91AF79E9100C15C13 /* rupay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC91AF79E9100C15C13 /* rupay@3x.png */; };
+		76279FEA1AF79E9100C15C13 /* rupay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FC91AF79E9100C15C13 /* rupay@3x.png */; };
+		76279FEB1AF79E9100C15C13 /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FCA1AF79E9100C15C13 /* visa.png */; };
+		76279FEC1AF79E9100C15C13 /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FCA1AF79E9100C15C13 /* visa.png */; };
+		76279FED1AF79E9100C15C13 /* visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FCB1AF79E9100C15C13 /* visa@2x.png */; };
+		76279FEE1AF79E9100C15C13 /* visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FCB1AF79E9100C15C13 /* visa@2x.png */; };
+		76279FEF1AF79E9100C15C13 /* visa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FCC1AF79E9100C15C13 /* visa@3x.png */; };
+		76279FF01AF79E9100C15C13 /* visa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76279FCC1AF79E9100C15C13 /* visa@3x.png */; };
 		765004A01AE4F0350073031F /* CTSRestError.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004051AE4F0340073031F /* CTSRestError.m */; };
 		765004A11AE4F0350073031F /* CTSRestError.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004051AE4F0340073031F /* CTSRestError.m */; };
 		765004A21AE4F0350073031F /* CTSSignupState.m in Sources */ = {isa = PBXBuildFile; fileRef = 765004081AE4F0340073031F /* CTSSignupState.m */; };
@@ -133,36 +207,8 @@
 		7650051B1AE4F0350073031F /* CTSPaymentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650049A1AE4F0350073031F /* CTSPaymentLayer.m */; };
 		7650051C1AE4F0350073031F /* CTSProfileLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650049E1AE4F0350073031F /* CTSProfileLayer.m */; };
 		7650051D1AE4F0350073031F /* CTSProfileLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650049E1AE4F0350073031F /* CTSProfileLayer.m */; };
-		76CF01031AE767AE0029A0B1 /* buttonbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F31AE767AE0029A0B1 /* buttonbackground.png */; };
-		76CF01041AE767AE0029A0B1 /* buttonbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F31AE767AE0029A0B1 /* buttonbackground.png */; };
-		76CF01051AE767AE0029A0B1 /* amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F51AE767AE0029A0B1 /* amex.png */; };
-		76CF01061AE767AE0029A0B1 /* amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F51AE767AE0029A0B1 /* amex.png */; };
-		76CF01071AE767AE0029A0B1 /* amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F61AE767AE0029A0B1 /* amex@2x.png */; };
-		76CF01081AE767AE0029A0B1 /* amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F61AE767AE0029A0B1 /* amex@2x.png */; };
-		76CF01091AE767AE0029A0B1 /* AXISlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F71AE767AE0029A0B1 /* AXISlogo.png */; };
-		76CF010A1AE767AE0029A0B1 /* AXISlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F71AE767AE0029A0B1 /* AXISlogo.png */; };
-		76CF010B1AE767AE0029A0B1 /* AXISlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F81AE767AE0029A0B1 /* AXISlogo@2x.png */; };
-		76CF010C1AE767AE0029A0B1 /* AXISlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F81AE767AE0029A0B1 /* AXISlogo@2x.png */; };
-		76CF010D1AE767AE0029A0B1 /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F91AE767AE0029A0B1 /* discover.png */; };
-		76CF010E1AE767AE0029A0B1 /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00F91AE767AE0029A0B1 /* discover.png */; };
-		76CF010F1AE767AE0029A0B1 /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FA1AE767AE0029A0B1 /* discover@2x.png */; };
-		76CF01101AE767AE0029A0B1 /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FA1AE767AE0029A0B1 /* discover@2x.png */; };
-		76CF01111AE767AE0029A0B1 /* maestro.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FB1AE767AE0029A0B1 /* maestro.png */; };
-		76CF01121AE767AE0029A0B1 /* maestro.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FB1AE767AE0029A0B1 /* maestro.png */; };
-		76CF01131AE767AE0029A0B1 /* maestro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FC1AE767AE0029A0B1 /* maestro@2x.png */; };
-		76CF01141AE767AE0029A0B1 /* maestro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FC1AE767AE0029A0B1 /* maestro@2x.png */; };
-		76CF01151AE767AE0029A0B1 /* mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FD1AE767AE0029A0B1 /* mastercard.png */; };
-		76CF01161AE767AE0029A0B1 /* mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FD1AE767AE0029A0B1 /* mastercard.png */; };
-		76CF01171AE767AE0029A0B1 /* mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FE1AE767AE0029A0B1 /* mastercard@2x.png */; };
-		76CF01181AE767AE0029A0B1 /* mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FE1AE767AE0029A0B1 /* mastercard@2x.png */; };
-		76CF01191AE767AE0029A0B1 /* rupay.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FF1AE767AE0029A0B1 /* rupay.png */; };
-		76CF011A1AE767AE0029A0B1 /* rupay.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF00FF1AE767AE0029A0B1 /* rupay.png */; };
-		76CF011B1AE767AE0029A0B1 /* rupay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01001AE767AE0029A0B1 /* rupay@2x.png */; };
-		76CF011C1AE767AE0029A0B1 /* rupay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01001AE767AE0029A0B1 /* rupay@2x.png */; };
-		76CF011D1AE767AE0029A0B1 /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01011AE767AE0029A0B1 /* visa.png */; };
-		76CF011E1AE767AE0029A0B1 /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01011AE767AE0029A0B1 /* visa.png */; };
-		76CF011F1AE767AE0029A0B1 /* visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01021AE767AE0029A0B1 /* visa@2x.png */; };
-		76CF01201AE767AE0029A0B1 /* visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01021AE767AE0029A0B1 /* visa@2x.png */; };
+		76570F721AF75A9C00183450 /* BanksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76570F711AF75A9C00183450 /* BanksViewController.m */; };
+		76570F731AF75A9C00183450 /* BanksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76570F711AF75A9C00183450 /* BanksViewController.m */; };
 		76CF01241AE7C1790029A0B1 /* UIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CF01231AE7C1790029A0B1 /* UIUtility.m */; };
 		76CF01251AE7C1790029A0B1 /* UIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CF01231AE7C1790029A0B1 /* UIUtility.m */; };
 		76CF012A1AE7D9710029A0B1 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF01271AE7D9710029A0B1 /* error@2x.png */; };
@@ -207,6 +253,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7604447F1AEA45FC0033CA38 /* Bank-AXIS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-AXIS.png"; sourceTree = "<group>"; };
+		760444801AEA45FC0033CA38 /* Bank-AXIS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-AXIS@2x.png"; sourceTree = "<group>"; };
+		760444811AEA45FC0033CA38 /* Bank-AXIS@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-AXIS@3x.png"; sourceTree = "<group>"; };
+		760444821AEA45FC0033CA38 /* Bank-Citi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-Citi.png"; sourceTree = "<group>"; };
+		760444831AEA45FC0033CA38 /* Bank-Citi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-Citi@2x.png"; sourceTree = "<group>"; };
+		760444841AEA45FC0033CA38 /* Bank-Citi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-Citi@3x.png"; sourceTree = "<group>"; };
+		760444851AEA45FC0033CA38 /* Bank-HDFC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-HDFC.png"; sourceTree = "<group>"; };
+		760444861AEA45FC0033CA38 /* Bank-HDFC@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-HDFC@2x.png"; sourceTree = "<group>"; };
+		760444871AEA45FC0033CA38 /* Bank-HDFC@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-HDFC@3x.png"; sourceTree = "<group>"; };
+		760444881AEA45FC0033CA38 /* Bank-ICICI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-ICICI.png"; sourceTree = "<group>"; };
+		760444891AEA45FC0033CA38 /* Bank-ICICI@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-ICICI@2x.png"; sourceTree = "<group>"; };
+		7604448A1AEA45FC0033CA38 /* Bank-ICICI@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-ICICI@3x.png"; sourceTree = "<group>"; };
+		7604448B1AEA45FC0033CA38 /* Bank-Kotak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-Kotak.png"; sourceTree = "<group>"; };
+		7604448C1AEA45FC0033CA38 /* Bank-Kotak@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-Kotak@2x.png"; sourceTree = "<group>"; };
+		7604448D1AEA45FC0033CA38 /* Bank-Kotak@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-Kotak@3x.png"; sourceTree = "<group>"; };
+		7604448E1AEA45FC0033CA38 /* Bank-SBI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-SBI.png"; sourceTree = "<group>"; };
+		7604448F1AEA45FC0033CA38 /* Bank-SBI@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-SBI@2x.png"; sourceTree = "<group>"; };
+		760444901AEA45FC0033CA38 /* Bank-SBI@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bank-SBI@3x.png"; sourceTree = "<group>"; };
+		760444B61AEE73B90033CA38 /* WebGatewayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGatewayViewController.h; sourceTree = "<group>"; };
+		760444B71AEE73B90033CA38 /* WebGatewayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebGatewayViewController.m; sourceTree = "<group>"; };
+		76279FBB1AF79E9100C15C13 /* amex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amex.png; sourceTree = "<group>"; };
+		76279FBC1AF79E9100C15C13 /* amex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amex@2x.png"; sourceTree = "<group>"; };
+		76279FBD1AF79E9100C15C13 /* amex@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amex@3x.png"; sourceTree = "<group>"; };
+		76279FBE1AF79E9100C15C13 /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
+		76279FBF1AF79E9100C15C13 /* discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@2x.png"; sourceTree = "<group>"; };
+		76279FC01AF79E9100C15C13 /* discover@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@3x.png"; sourceTree = "<group>"; };
+		76279FC11AF79E9100C15C13 /* maestro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maestro.png; sourceTree = "<group>"; };
+		76279FC21AF79E9100C15C13 /* maestro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maestro@2x.png"; sourceTree = "<group>"; };
+		76279FC31AF79E9100C15C13 /* maestro@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maestro@3x.png"; sourceTree = "<group>"; };
+		76279FC41AF79E9100C15C13 /* mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mastercard.png; sourceTree = "<group>"; };
+		76279FC51AF79E9100C15C13 /* mastercard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mastercard@2x.png"; sourceTree = "<group>"; };
+		76279FC61AF79E9100C15C13 /* mastercard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mastercard@3x.png"; sourceTree = "<group>"; };
+		76279FC71AF79E9100C15C13 /* rupay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rupay.png; sourceTree = "<group>"; };
+		76279FC81AF79E9100C15C13 /* rupay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rupay@2x.png"; sourceTree = "<group>"; };
+		76279FC91AF79E9100C15C13 /* rupay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rupay@3x.png"; sourceTree = "<group>"; };
+		76279FCA1AF79E9100C15C13 /* visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa.png; sourceTree = "<group>"; };
+		76279FCB1AF79E9100C15C13 /* visa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa@2x.png"; sourceTree = "<group>"; };
+		76279FCC1AF79E9100C15C13 /* visa@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa@3x.png"; sourceTree = "<group>"; };
 		765004021AE4F0340073031F /* CitrusSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitrusSdk.h; sourceTree = "<group>"; };
 		765004041AE4F0340073031F /* CTSRestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestError.h; sourceTree = "<group>"; };
 		765004051AE4F0340073031F /* CTSRestError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSRestError.m; sourceTree = "<group>"; };
@@ -344,21 +428,8 @@
 		7650049E1AE4F0350073031F /* CTSProfileLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSProfileLayer.m; sourceTree = "<group>"; };
 		7650049F1AE4F0350073031F /* CTSProfileLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileLayerConstants.h; sourceTree = "<group>"; };
 		7650051E1AE50D270073031F /* TestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestParams.h; sourceTree = "<group>"; };
-		76CF00F31AE767AE0029A0B1 /* buttonbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonbackground.png; sourceTree = "<group>"; };
-		76CF00F51AE767AE0029A0B1 /* amex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amex.png; sourceTree = "<group>"; };
-		76CF00F61AE767AE0029A0B1 /* amex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amex@2x.png"; sourceTree = "<group>"; };
-		76CF00F71AE767AE0029A0B1 /* AXISlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AXISlogo.png; sourceTree = "<group>"; };
-		76CF00F81AE767AE0029A0B1 /* AXISlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AXISlogo@2x.png"; sourceTree = "<group>"; };
-		76CF00F91AE767AE0029A0B1 /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
-		76CF00FA1AE767AE0029A0B1 /* discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@2x.png"; sourceTree = "<group>"; };
-		76CF00FB1AE767AE0029A0B1 /* maestro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maestro.png; sourceTree = "<group>"; };
-		76CF00FC1AE767AE0029A0B1 /* maestro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maestro@2x.png"; sourceTree = "<group>"; };
-		76CF00FD1AE767AE0029A0B1 /* mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mastercard.png; sourceTree = "<group>"; };
-		76CF00FE1AE767AE0029A0B1 /* mastercard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mastercard@2x.png"; sourceTree = "<group>"; };
-		76CF00FF1AE767AE0029A0B1 /* rupay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rupay.png; sourceTree = "<group>"; };
-		76CF01001AE767AE0029A0B1 /* rupay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rupay@2x.png"; sourceTree = "<group>"; };
-		76CF01011AE767AE0029A0B1 /* visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa.png; sourceTree = "<group>"; };
-		76CF01021AE767AE0029A0B1 /* visa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa@2x.png"; sourceTree = "<group>"; };
+		76570F701AF75A9C00183450 /* BanksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanksViewController.h; sourceTree = "<group>"; };
+		76570F711AF75A9C00183450 /* BanksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanksViewController.m; sourceTree = "<group>"; };
 		76CF01221AE7C1790029A0B1 /* UIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtility.h; sourceTree = "<group>"; };
 		76CF01231AE7C1790029A0B1 /* UIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtility.m; sourceTree = "<group>"; };
 		76CF01271AE7D9710029A0B1 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
@@ -435,6 +506,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7604447E1AEA45FC0033CA38 /* BankIcons */ = {
+			isa = PBXGroup;
+			children = (
+				7604447F1AEA45FC0033CA38 /* Bank-AXIS.png */,
+				760444801AEA45FC0033CA38 /* Bank-AXIS@2x.png */,
+				760444811AEA45FC0033CA38 /* Bank-AXIS@3x.png */,
+				760444821AEA45FC0033CA38 /* Bank-Citi.png */,
+				760444831AEA45FC0033CA38 /* Bank-Citi@2x.png */,
+				760444841AEA45FC0033CA38 /* Bank-Citi@3x.png */,
+				760444851AEA45FC0033CA38 /* Bank-HDFC.png */,
+				760444861AEA45FC0033CA38 /* Bank-HDFC@2x.png */,
+				760444871AEA45FC0033CA38 /* Bank-HDFC@3x.png */,
+				760444881AEA45FC0033CA38 /* Bank-ICICI.png */,
+				760444891AEA45FC0033CA38 /* Bank-ICICI@2x.png */,
+				7604448A1AEA45FC0033CA38 /* Bank-ICICI@3x.png */,
+				7604448B1AEA45FC0033CA38 /* Bank-Kotak.png */,
+				7604448C1AEA45FC0033CA38 /* Bank-Kotak@2x.png */,
+				7604448D1AEA45FC0033CA38 /* Bank-Kotak@3x.png */,
+				7604448E1AEA45FC0033CA38 /* Bank-SBI.png */,
+				7604448F1AEA45FC0033CA38 /* Bank-SBI@2x.png */,
+				760444901AEA45FC0033CA38 /* Bank-SBI@3x.png */,
+			);
+			path = BankIcons;
+			sourceTree = "<group>";
+		};
+		760444B51AEE73900033CA38 /* WebGateway */ = {
+			isa = PBXGroup;
+			children = (
+				760444B61AEE73B90033CA38 /* WebGatewayViewController.h */,
+				760444B71AEE73B90033CA38 /* WebGatewayViewController.m */,
+			);
+			path = WebGateway;
+			sourceTree = SOURCE_ROOT;
+		};
+		76279FBA1AF79E9100C15C13 /* CardIcons */ = {
+			isa = PBXGroup;
+			children = (
+				76279FBB1AF79E9100C15C13 /* amex.png */,
+				76279FBC1AF79E9100C15C13 /* amex@2x.png */,
+				76279FBD1AF79E9100C15C13 /* amex@3x.png */,
+				76279FBE1AF79E9100C15C13 /* discover.png */,
+				76279FBF1AF79E9100C15C13 /* discover@2x.png */,
+				76279FC01AF79E9100C15C13 /* discover@3x.png */,
+				76279FC11AF79E9100C15C13 /* maestro.png */,
+				76279FC21AF79E9100C15C13 /* maestro@2x.png */,
+				76279FC31AF79E9100C15C13 /* maestro@3x.png */,
+				76279FC41AF79E9100C15C13 /* mastercard.png */,
+				76279FC51AF79E9100C15C13 /* mastercard@2x.png */,
+				76279FC61AF79E9100C15C13 /* mastercard@3x.png */,
+				76279FC71AF79E9100C15C13 /* rupay.png */,
+				76279FC81AF79E9100C15C13 /* rupay@2x.png */,
+				76279FC91AF79E9100C15C13 /* rupay@3x.png */,
+				76279FCA1AF79E9100C15C13 /* visa.png */,
+				76279FCB1AF79E9100C15C13 /* visa@2x.png */,
+				76279FCC1AF79E9100C15C13 /* visa@3x.png */,
+			);
+			path = CardIcons;
+			sourceTree = "<group>";
+		};
 		765004011AE4F0340073031F /* CitrusDevKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -757,31 +887,10 @@
 		76CF00F21AE767AE0029A0B1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				76CF00F31AE767AE0029A0B1 /* buttonbackground.png */,
-				76CF00F41AE767AE0029A0B1 /* Card icon */,
+				76279FBA1AF79E9100C15C13 /* CardIcons */,
+				7604447E1AEA45FC0033CA38 /* BankIcons */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		76CF00F41AE767AE0029A0B1 /* Card icon */ = {
-			isa = PBXGroup;
-			children = (
-				76CF00F51AE767AE0029A0B1 /* amex.png */,
-				76CF00F61AE767AE0029A0B1 /* amex@2x.png */,
-				76CF00F71AE767AE0029A0B1 /* AXISlogo.png */,
-				76CF00F81AE767AE0029A0B1 /* AXISlogo@2x.png */,
-				76CF00F91AE767AE0029A0B1 /* discover.png */,
-				76CF00FA1AE767AE0029A0B1 /* discover@2x.png */,
-				76CF00FB1AE767AE0029A0B1 /* maestro.png */,
-				76CF00FC1AE767AE0029A0B1 /* maestro@2x.png */,
-				76CF00FD1AE767AE0029A0B1 /* mastercard.png */,
-				76CF00FE1AE767AE0029A0B1 /* mastercard@2x.png */,
-				76CF00FF1AE767AE0029A0B1 /* rupay.png */,
-				76CF01001AE767AE0029A0B1 /* rupay@2x.png */,
-				76CF01011AE767AE0029A0B1 /* visa.png */,
-				76CF01021AE767AE0029A0B1 /* visa@2x.png */,
-			);
-			path = "Card icon";
 			sourceTree = "<group>";
 		};
 		76CF01211AE7C1790029A0B1 /* UIUtility */ = {
@@ -833,6 +942,7 @@
 		CC4933E61AC914D100E4DC16 /* CitrusProject */ = {
 			isa = PBXGroup;
 			children = (
+				760444B51AEE73900033CA38 /* WebGateway */,
 				CC9877381AD24421001AB48C /* Base View Controller */,
 				CC9877341AD23D2D001AB48C /* CVV */,
 				CC4934391AC97CD400E4DC16 /* Home */,
@@ -900,6 +1010,8 @@
 			children = (
 				CC49340D1AC9160600E4DC16 /* AddCardController.h */,
 				CC49340E1AC9160600E4DC16 /* AddCardController.m */,
+				76570F701AF75A9C00183450 /* BanksViewController.h */,
+				76570F711AF75A9C00183450 /* BanksViewController.m */,
 			);
 			name = AddCard;
 			sourceTree = "<group>";
@@ -1074,27 +1186,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76CF011B1AE767AE0029A0B1 /* rupay@2x.png in Resources */,
-				76CF01171AE767AE0029A0B1 /* mastercard@2x.png in Resources */,
+				76279FE71AF79E9100C15C13 /* rupay@2x.png in Resources */,
+				7604449F1AEA45FC0033CA38 /* Bank-HDFC@2x.png in Resources */,
+				7604449B1AEA45FC0033CA38 /* Bank-Citi@3x.png in Resources */,
+				76279FD31AF79E9100C15C13 /* discover.png in Resources */,
 				CCE41D6E1AD14BE400485F5B /* .gitignore in Resources */,
-				76CF01071AE767AE0029A0B1 /* amex@2x.png in Resources */,
-				76CF01191AE767AE0029A0B1 /* rupay.png in Resources */,
-				76CF011F1AE767AE0029A0B1 /* visa@2x.png in Resources */,
+				760444B31AEA45FC0033CA38 /* Bank-SBI@3x.png in Resources */,
+				76279FEB1AF79E9100C15C13 /* visa.png in Resources */,
+				760444A51AEA45FC0033CA38 /* Bank-ICICI@2x.png in Resources */,
+				76279FDB1AF79E9100C15C13 /* maestro@2x.png in Resources */,
+				76279FDF1AF79E9100C15C13 /* mastercard.png in Resources */,
+				76279FD91AF79E9100C15C13 /* maestro.png in Resources */,
 				76CF012A1AE7D9710029A0B1 /* error@2x.png in Resources */,
+				76279FDD1AF79E9100C15C13 /* maestro@3x.png in Resources */,
+				76279FCD1AF79E9100C15C13 /* amex.png in Resources */,
+				76279FE11AF79E9100C15C13 /* mastercard@2x.png in Resources */,
 				CC4933F31AC914D100E4DC16 /* Main.storyboard in Resources */,
-				76CF011D1AE767AE0029A0B1 /* visa.png in Resources */,
+				760444A91AEA45FC0033CA38 /* Bank-Kotak.png in Resources */,
+				76279FD51AF79E9100C15C13 /* discover@2x.png in Resources */,
+				760444A11AEA45FC0033CA38 /* Bank-HDFC@3x.png in Resources */,
+				760444911AEA45FC0033CA38 /* Bank-AXIS.png in Resources */,
+				76279FEF1AF79E9100C15C13 /* visa@3x.png in Resources */,
+				760444991AEA45FC0033CA38 /* Bank-Citi@2x.png in Resources */,
+				76279FD71AF79E9100C15C13 /* discover@3x.png in Resources */,
+				760444931AEA45FC0033CA38 /* Bank-AXIS@2x.png in Resources */,
+				76279FE51AF79E9100C15C13 /* rupay.png in Resources */,
+				76279FD11AF79E9100C15C13 /* amex@3x.png in Resources */,
+				76279FE91AF79E9100C15C13 /* rupay@3x.png in Resources */,
+				76279FCF1AF79E9100C15C13 /* amex@2x.png in Resources */,
+				760444AD1AEA45FC0033CA38 /* Bank-Kotak@3x.png in Resources */,
+				760444951AEA45FC0033CA38 /* Bank-AXIS@3x.png in Resources */,
 				CC98773A1AD2651C001AB48C /* ocraextended.ttf in Resources */,
-				76CF01111AE767AE0029A0B1 /* maestro.png in Resources */,
-				76CF010F1AE767AE0029A0B1 /* discover@2x.png in Resources */,
-				76CF01151AE767AE0029A0B1 /* mastercard.png in Resources */,
+				760444B11AEA45FC0033CA38 /* Bank-SBI@2x.png in Resources */,
+				760444A71AEA45FC0033CA38 /* Bank-ICICI@3x.png in Resources */,
+				760444971AEA45FC0033CA38 /* Bank-Citi.png in Resources */,
 				CC4933F81AC914D100E4DC16 /* LaunchScreen.xib in Resources */,
-				76CF010D1AE767AE0029A0B1 /* discover.png in Resources */,
+				76279FED1AF79E9100C15C13 /* visa@2x.png in Resources */,
 				CC4933F51AC914D100E4DC16 /* Images.xcassets in Resources */,
-				76CF01051AE767AE0029A0B1 /* amex.png in Resources */,
-				76CF01131AE767AE0029A0B1 /* maestro@2x.png in Resources */,
-				76CF01031AE767AE0029A0B1 /* buttonbackground.png in Resources */,
-				76CF010B1AE767AE0029A0B1 /* AXISlogo@2x.png in Resources */,
-				76CF01091AE767AE0029A0B1 /* AXISlogo.png in Resources */,
+				760444A31AEA45FC0033CA38 /* Bank-ICICI.png in Resources */,
+				760444AB1AEA45FC0033CA38 /* Bank-Kotak@2x.png in Resources */,
+				76279FE31AF79E9100C15C13 /* mastercard@3x.png in Resources */,
+				7604449D1AEA45FC0033CA38 /* Bank-HDFC.png in Resources */,
+				760444AF1AEA45FC0033CA38 /* Bank-SBI.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1102,22 +1235,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76CF01181AE767AE0029A0B1 /* mastercard@2x.png in Resources */,
-				76CF011C1AE767AE0029A0B1 /* rupay@2x.png in Resources */,
-				76CF01041AE767AE0029A0B1 /* buttonbackground.png in Resources */,
+				76279FD41AF79E9100C15C13 /* discover.png in Resources */,
+				760444B41AEA45FC0033CA38 /* Bank-SBI@3x.png in Resources */,
+				76279FD01AF79E9100C15C13 /* amex@2x.png in Resources */,
+				7604449E1AEA45FC0033CA38 /* Bank-HDFC.png in Resources */,
+				760444921AEA45FC0033CA38 /* Bank-AXIS.png in Resources */,
+				760444AA1AEA45FC0033CA38 /* Bank-Kotak.png in Resources */,
+				76279FE41AF79E9100C15C13 /* mastercard@3x.png in Resources */,
+				760444981AEA45FC0033CA38 /* Bank-Citi.png in Resources */,
+				76279FE01AF79E9100C15C13 /* mastercard.png in Resources */,
+				76279FE81AF79E9100C15C13 /* rupay@2x.png in Resources */,
+				76279FD21AF79E9100C15C13 /* amex@3x.png in Resources */,
+				760444AE1AEA45FC0033CA38 /* Bank-Kotak@3x.png in Resources */,
+				76279FCE1AF79E9100C15C13 /* amex.png in Resources */,
+				760444A01AEA45FC0033CA38 /* Bank-HDFC@2x.png in Resources */,
+				76279FE61AF79E9100C15C13 /* rupay.png in Resources */,
+				76279FE21AF79E9100C15C13 /* mastercard@2x.png in Resources */,
+				76279FD61AF79E9100C15C13 /* discover@2x.png in Resources */,
 				76CF012B1AE7D9710029A0B1 /* error@2x.png in Resources */,
-				76CF010E1AE767AE0029A0B1 /* discover.png in Resources */,
-				76CF01101AE767AE0029A0B1 /* discover@2x.png in Resources */,
-				76CF01061AE767AE0029A0B1 /* amex.png in Resources */,
-				76CF01081AE767AE0029A0B1 /* amex@2x.png in Resources */,
-				76CF01141AE767AE0029A0B1 /* maestro@2x.png in Resources */,
-				76CF01161AE767AE0029A0B1 /* mastercard.png in Resources */,
-				76CF011A1AE767AE0029A0B1 /* rupay.png in Resources */,
-				76CF01201AE767AE0029A0B1 /* visa@2x.png in Resources */,
-				76CF011E1AE767AE0029A0B1 /* visa.png in Resources */,
-				76CF010C1AE767AE0029A0B1 /* AXISlogo@2x.png in Resources */,
-				76CF010A1AE767AE0029A0B1 /* AXISlogo.png in Resources */,
-				76CF01121AE767AE0029A0B1 /* maestro.png in Resources */,
+				760444B01AEA45FC0033CA38 /* Bank-SBI.png in Resources */,
+				76279FD81AF79E9100C15C13 /* discover@3x.png in Resources */,
+				760444B21AEA45FC0033CA38 /* Bank-SBI@2x.png in Resources */,
+				7604449C1AEA45FC0033CA38 /* Bank-Citi@3x.png in Resources */,
+				760444A61AEA45FC0033CA38 /* Bank-ICICI@2x.png in Resources */,
+				76279FEE1AF79E9100C15C13 /* visa@2x.png in Resources */,
+				76279FF01AF79E9100C15C13 /* visa@3x.png in Resources */,
+				760444961AEA45FC0033CA38 /* Bank-AXIS@3x.png in Resources */,
+				760444A21AEA45FC0033CA38 /* Bank-HDFC@3x.png in Resources */,
+				760444A41AEA45FC0033CA38 /* Bank-ICICI.png in Resources */,
+				760444A81AEA45FC0033CA38 /* Bank-ICICI@3x.png in Resources */,
+				760444AC1AEA45FC0033CA38 /* Bank-Kotak@2x.png in Resources */,
+				76279FDC1AF79E9100C15C13 /* maestro@2x.png in Resources */,
+				7604449A1AEA45FC0033CA38 /* Bank-Citi@2x.png in Resources */,
+				760444941AEA45FC0033CA38 /* Bank-AXIS@2x.png in Resources */,
+				76279FEC1AF79E9100C15C13 /* visa.png in Resources */,
+				76279FDA1AF79E9100C15C13 /* maestro.png in Resources */,
+				76279FDE1AF79E9100C15C13 /* maestro@3x.png in Resources */,
+				76279FEA1AF79E9100C15C13 /* rupay@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1172,6 +1326,7 @@
 				765004AE1AE4F0350073031F /* CTSPaymentToken.m in Sources */,
 				CC4933ED1AC914D100E4DC16 /* AppDelegate.m in Sources */,
 				765004DC1AE4F0350073031F /* CTSPgSettings.m in Sources */,
+				76570F721AF75A9C00183450 /* BanksViewController.m in Sources */,
 				76CF01241AE7C1790029A0B1 /* UIUtility.m in Sources */,
 				765004A41AE4F0350073031F /* CTSAmount.m in Sources */,
 				765005181AE4F0350073031F /* NSObject+logProperties.m in Sources */,
@@ -1205,6 +1360,7 @@
 				CC49341D1AC9173200E4DC16 /* NSArray+PureLayout.m in Sources */,
 				CC4934221AC917E500E4DC16 /* CCListViewControllers.m in Sources */,
 				765004F61AE4F0350073031F /* CTSRestCore.m in Sources */,
+				760444B81AEE73B90033CA38 /* WebGatewayViewController.m in Sources */,
 				765004EA1AE4F0350073031F /* CTSAuthLayer.m in Sources */,
 				765004A81AE4F0350073031F /* CTSPaymentMode.m in Sources */,
 				765005121AE4F0350073031F /* JSONModel+networking.m in Sources */,
@@ -1269,6 +1425,7 @@
 				765004D71AE4F0350073031F /* CTSNetbankingOption.m in Sources */,
 				7650050F1AE4F0350073031F /* JSONAPI.m in Sources */,
 				765004C91AE4F0350073031F /* CTSLinkUserRes.m in Sources */,
+				760444B91AEE73B90033CA38 /* WebGatewayViewController.m in Sources */,
 				765004BF1AE4F0350073031F /* CTSNetBankingUpdate.m in Sources */,
 				7650051B1AE4F0350073031F /* CTSPaymentLayer.m in Sources */,
 				76CF012D1AE7D9710029A0B1 /* TextFieldValidator.m in Sources */,
@@ -1280,6 +1437,7 @@
 				765004EB1AE4F0350073031F /* CTSAuthLayer.m in Sources */,
 				765004F11AE4F0350073031F /* CTSObject.m in Sources */,
 				765004E91AE4F0350073031F /* GetProfileRes.m in Sources */,
+				76570F731AF75A9C00183450 /* BanksViewController.m in Sources */,
 				765004C71AE4F0350073031F /* CTSTokenizedPayment.m in Sources */,
 				765005111AE4F0350073031F /* JSONHTTPClient.m in Sources */,
 				765004FD1AE4F0350073031F /* CTSRestObject.m in Sources */,

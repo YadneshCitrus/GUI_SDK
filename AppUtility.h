@@ -10,4 +10,6 @@
 @class CardView;
 @interface AppUtility : NSObject
 +(CardView*)addCardViewDetails:(NSArray*)viewStrips;
++(CardView*)addCardViewDetailsForNB:(NSArray*)viewStrips;
++(CardView*)addCardViewDetailsError:(NSArray*)viewStrips;
 @end

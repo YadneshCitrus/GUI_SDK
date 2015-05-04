@@ -21,7 +21,7 @@
 }
 
 + (UIFont *)customLightFontWithSize:(float)size{
-    NSString *fontName = [NSString stringWithFormat:@"Helvetica-Light"];
+    NSString *fontName = [NSString stringWithFormat:@"Helvetica-Regular"];
     return [UIFont fontWithName:fontName size:size];
 }
 

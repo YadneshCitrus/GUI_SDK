@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CCListViewControllers : UITableViewController
+@interface CCListViewControllers : UIViewController <UIActionSheetDelegate>
 
 @property (nonatomic, readonly) NSArray *demoTitles;
 

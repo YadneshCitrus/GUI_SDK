@@ -14,6 +14,7 @@
 #import "TextFieldValidator.h"
 #import "CTSUtility.h"
 #import "UIUtility.h"
+#import "EnterCVVViewController.h"
 
 #define REGEX_CARDNUMBER_LIMIT @"^.{19,19}$"
 #define REGEX_CARDNUMBER @"^[0-9]*$"
@@ -39,6 +40,7 @@
 @end
 
 @implementation AddCardController
+@synthesize payWithCard;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -115,7 +117,14 @@
     }
 
     if([self.cardNumberTextField validate] & [self.expiryDateTextField validate] & [self.cardNameTextField validate]){
-        [self saveCards];
+        if (self.payWithCard) {
+            dispatch_async(dispatch_get_main_queue(), ^(){
+                EnterCVVViewController *cvv = [[EnterCVVViewController alloc]initWithNibName:nil bundle:nil amount:@"Rs 1200"];
+                [self.navigationController pushViewController:cvv animated:YES];
+            });
+        }else{
+            [self saveCards];
+        }
     }
 }
 
@@ -192,8 +201,11 @@
     [blocks autoPinEdgeToSuperviewEdge:ALEdgeTop withInset:12];
     [blocks autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:12];
 
-    [self.cardSchemeImage autoPinEdgeToSuperviewEdge:ALEdgeTrailing withInset:20];
+    [self.cardSchemeImage autoPinEdgeToSuperviewEdge:ALEdgeTrailing withInset:10];
     [self.cardSchemeImage autoAlignAxis:ALAxisHorizontal toSameAxisOfView:background];
+    [self.cardSchemeImage autoSetDimension:ALDimensionHeight toSize:40];
+    [self.cardSchemeImage autoSetDimension:ALDimensionWidth toSize:60];
+
     return background;
 
 }

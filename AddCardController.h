@@ -15,10 +15,12 @@
     CardView *segementBackGround ;
     CardView *cardDetailView ; 
         
-    BOOL isSaveCard ;
+    BOOL isSaveCard;
+    BOOL payWithCard;
     
     CTSAuthLayer *authLayer;
     CTSProfileLayer *proifleLayer;
 }
+@property(nonatomic,assign) BOOL payWithCard;
 
 @end

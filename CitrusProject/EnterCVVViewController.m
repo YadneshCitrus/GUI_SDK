@@ -7,6 +7,7 @@
 //
 
 #import "EnterCVVViewController.h"
+#import "ResultController.h"
 
 @interface EnterCVVViewController ()
 
@@ -143,7 +144,16 @@
     return YES;
 }
 -(void)dissmissView{
-     [self.navigationController popViewControllerAnimated:NO];
+    
+    ResultController *result = [[ResultController alloc] initWithNibName:nil bundle:nil  isSuccessFul:YES];
+    result.resultIdValueLbl.text = @"2323232";
+    result.messageValueLbl.text = @"Rs. 1200";
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:result];
+    [self.navigationController presentViewController:nav animated:YES completion:nil];
+    
+    UIViewController *View = [self.navigationController.viewControllers objectAtIndex:self.navigationController.viewControllers.count-3];
+    [self.navigationController popToViewController:View animated:YES];
+
 }
 -(void)setRadioBtnForPos:(int)pos cvvtextLength:(int)textLen{
     if ([self isTextEnterAtPos:pos totalTextFieldLength:textLen]) {

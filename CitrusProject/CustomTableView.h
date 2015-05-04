@@ -7,11 +7,50 @@
 //
 
 #import <UIKit/UIKit.h>
+
+@protocol CustomTableViewProtocol
+
+@optional
+/**
+ @brief     ----------
+ @details   ----------
+ */
+- (void)addCard;
+
+/**
+ @brief     ----------
+ @details   ----------
+ */
+- (void)payWithSavedCards;
+
+/**
+ @brief     ----------
+ @details   ----------
+ */
+- (void)payWithCreditDebitCard;
+
+
+/**
+ @brief     ----------
+ @details   ----------
+ */
+- (void)payWithNetBanking;
+
+/**
+ @brief     ----------
+ @details   ----------
+ */
+- (void)getPayWithOtherNBsViewController;
+@end
+
 @class CardView;
-@interface CustomTableView : UIView
+@interface CustomTableView : UIView <UITableViewDelegate, UITableViewDataSource>
 {
     UILabel *heading;
     CardView *view;
+    CardView *cardDetailView;
 }
+@property (nonatomic,retain) id<CustomTableViewProtocol> delegate;
+
 -(id)initWithHeading:(NSString*)headingName;
 @end
